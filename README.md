@@ -168,8 +168,8 @@ sintaksne analize i zadovoljilo uslove semantičke provere.
 generisanu klasu rs.ac.bg.etf.pp1.ast.VisitorAdapter, i u njoj redefinisati medote za obilazak
 elemenata sintaksnog stabla koji su relevanti za generisanje koda.
 - Generator koda mora da generiše ispravan bajtkod za MJVM.
-- Za implementaciju generatora koda moraju se koristiti alati Code, disasm i Run. dostupni i
-biblioteci mj-runtime.jar: http://ir4pp1.etf.rs/Domaci/mj-runtime-1.1.jar
+- Za implementaciju generatora koda moraju se koristiti alati Code, disasm i Run. dostupni u
+biblioteci mj-runtime.jar.
 - Generisanje koda se pokreće u glavnom programu klase Compiler po završetku semantičke
 analize i ispisa sadržaja tabele simbola. Implementira se prosleđivanjem objekta klase
 CodeGenerator korenu sintaksnog stabla.
