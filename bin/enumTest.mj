@@ -1,0 +1,15 @@
+program P
+
+	enum DaniUNedelji { PON = 1, UTO, SRE, CET, PET, SUB, NED}	
+	
+	int d;
+	{
+		void main() 
+			DaniUNedelji dan1, dan2;
+		{
+			dan1 = DaniUNedelji.UTO;
+			dan2 = dan1;
+			d = 10 + DaniUNedelji.SUB;
+			print(d);
+		}
+	}

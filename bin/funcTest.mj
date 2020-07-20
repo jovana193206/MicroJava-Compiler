@@ -1,0 +1,16 @@
+program P
+	
+	{
+		int f(int broj)
+		{
+			return (broj + 5) / 2;
+		}
+		
+		void main() 
+			int x, res;
+		{
+			x = 2;
+			res = f(x);
+			print(res);
+		}
+	}

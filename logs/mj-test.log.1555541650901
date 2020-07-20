@@ -1,0 +1,110 @@
+INFO  00:46:22,558 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\unmatchedForTest.mj
+INFO  00:46:22,652 - #2 program
+INFO  00:46:22,652 - #44 P
+INFO  00:46:22,652 - #7 const
+INFO  00:46:22,652 - #44 int
+INFO  00:46:22,652 - #44 size
+INFO  00:46:22,652 - #32 =
+INFO  00:46:22,652 - #45 10
+INFO  00:46:22,652 - #35 ;
+INFO  00:46:22,667 - #42 {
+INFO  00:46:22,667 - #12 void
+INFO  00:46:22,667 - #44 main
+INFO  00:46:22,667 - #38 (
+INFO  00:46:22,667 - #39 )
+INFO  00:46:22,667 - #44 int
+INFO  00:46:22,667 - #44 i
+INFO  00:46:22,667 - #35 ;
+INFO  00:46:22,667 - #42 {
+INFO  00:46:22,667 - #18 for
+INFO  00:46:22,667 - #38 (
+INFO  00:46:22,667 - #44 i
+INFO  00:46:22,667 - #32 =
+INFO  00:46:22,667 - #45 0
+INFO  00:46:22,667 - #35 ;
+INFO  00:46:22,683 - #44 i
+INFO  00:46:22,683 - #28 <
+INFO  00:46:22,683 - #44 size
+INFO  00:46:22,683 - #35 ;
+INFO  00:46:22,683 - #44 i
+INFO  00:46:22,683 - #33 ++
+INFO  00:46:22,683 - #39 )
+INFO  00:46:22,683 - #42 {
+INFO  00:46:22,683 - #16 if
+INFO  00:46:22,683 - #38 (
+INFO  00:46:22,683 - #44 i
+INFO  00:46:22,683 - #24 ==
+INFO  00:46:22,683 - #45 3
+INFO  00:46:22,683 - #39 )
+INFO  00:46:22,683 - #44 i
+INFO  00:46:22,683 - #33 ++
+INFO  00:46:22,683 - #35 ;
+INFO  00:46:22,683 - #43 }
+INFO  00:46:22,683 - #17 else
+ERROR 00:46:22,683 - 
+Sintaksna greska na liniji 11
+INFO  00:46:22,683 - #44 i
+INFO  00:46:22,683 - #32 =
+INFO  00:46:22,683 - #45 0
+INFO  00:46:22,683 - #35 ;
+INFO  00:46:22,683 - #43 }
+INFO  00:46:22,683 - #43 }
+ERROR 00:46:22,683 - Izvrsen oporavak do ; u liniji 7
+INFO  00:46:22,699 - Program(
+ P
+  Declarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstInit(
+          ConstInit(
+           size
+            NumConst(
+             10
+            ) [NumConst]
+          ) [ConstInit]
+        ) [SingleConstInit]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodReturnVoid(
+      ) [MethodReturnVoid]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarIdent(
+            NonArrayVarIdent(
+             i
+            ) [NonArrayVarIdent]
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          ErrorStmt(
+          ) [ErrorStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:46:22,699 - ===================================
+INFO  00:46:22,699 -  Print count calls = 0
+INFO  00:46:22,699 -  Deklarisanih promenljivih ima = 1

@@ -1,0 +1,258 @@
+INFO  17:04:39,610 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\funcTest.mj
+INFO  17:04:39,797 - #2 program
+INFO  17:04:39,797 - #44 P
+INFO  17:04:39,797 - #37 {
+INFO  17:04:39,810 - #44 int
+INFO  17:04:39,826 - #44 f
+INFO  17:04:39,826 - #33 (
+INFO  17:04:39,826 - #44 int
+INFO  17:04:39,826 - #44 broj
+INFO  17:04:39,826 - #34 )
+INFO  17:04:39,857 - #37 {
+INFO  17:04:39,888 - #11 return
+INFO  17:04:39,888 - #33 (
+INFO  17:04:39,888 - #44 broj
+INFO  17:04:39,888 - #39 +
+INFO  17:04:39,904 - #45 5
+INFO  17:04:39,951 - #34 )
+INFO  17:04:39,951 - #42 /
+INFO  17:04:39,951 - #45 2
+INFO  17:04:40,013 - #30 ;
+INFO  17:04:40,029 - #38 }
+INFO  17:04:40,029 - #12 void
+INFO  17:04:40,044 - #44 main
+INFO  17:04:40,044 - #33 (
+INFO  17:04:40,044 - #34 )
+INFO  17:04:40,060 - #44 int
+INFO  17:04:40,060 - #44 x
+INFO  17:04:40,060 - #31 ,
+INFO  17:04:40,060 - #44 res
+INFO  17:04:40,060 - #30 ;
+INFO  17:04:40,060 - #37 {
+INFO  17:04:40,076 - #44 res
+INFO  17:04:40,076 - #27 =
+INFO  17:04:40,076 - #44 f
+INFO  17:04:40,091 - #33 (
+INFO  17:04:40,091 - #44 x
+INFO  17:04:40,122 - #34 )
+INFO  17:04:40,122 - #30 ;
+INFO  17:04:40,122 - #9 print
+INFO  17:04:40,122 - #33 (
+INFO  17:04:40,122 - #44 res
+INFO  17:04:40,122 - #34 )
+INFO  17:04:40,122 - #30 ;
+INFO  17:04:40,122 - #38 }
+INFO  17:04:40,122 - #38 }
+INFO  17:04:40,201 - ===============SINTAKSNO STABLO===============
+INFO  17:04:40,216 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  NoVarDecl(
+  ) [NoVarDecl]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          MethodReturnTypeT(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeT]
+         f
+        ) [MethodTypeName]
+        FormParams(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+              NonArrayVarIdent(
+               broj
+              ) [NonArrayVarIdent]
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+        ) [FormParams]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            ReturnExpr(
+              PositiveExpr(
+                SingleTerm(
+                  Factors(
+                    SingleFactor(
+                      ParenFact(
+                        PositiveExpr(
+                          Terms(
+                            SingleTerm(
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    NonArrayDesignator(
+                                     broj
+                                    ) [NonArrayDesignator]
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                            AddopPlus(
+                            ) [AddopPlus]
+                            SingleFactor(
+                              Const(
+                                NumConst(
+                                 5
+                                ) [NumConst]
+                              ) [Const]
+                            ) [SingleFactor]
+                          ) [Terms]
+                        ) [PositiveExpr]
+                      ) [ParenFact]
+                    ) [SingleFactor]
+                    MulopDivision(
+                    ) [MulopDivision]
+                    Const(
+                      NumConst(
+                       2
+                      ) [NumConst]
+                    ) [Const]
+                  ) [Factors]
+                ) [SingleTerm]
+              ) [PositiveExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VarIdents(
+            SingleVarIdent(
+              NonArrayVarIdent(
+               x
+              ) [NonArrayVarIdent]
+            ) [SingleVarIdent]
+            NonArrayVarIdent(
+             res
+            ) [NonArrayVarIdent]
+          ) [VarIdents]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            DesignatorStmt(
+              DesignAssign(
+                Designator(
+                  NonArrayDesignator(
+                   res
+                  ) [NonArrayDesignator]
+                  NoSubdesignators(
+                  ) [NoSubdesignators]
+                ) [Designator]
+                DesignatorAssign(
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    SingleTerm(
+                      SingleFactor(
+                        FuncCall(
+                          MethodCalled(
+                            Designator(
+                              NonArrayDesignator(
+                               f
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                          ) [MethodCalled]
+                          Actuals(
+                            ActualParam(
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    DesignFact(
+                                      Designator(
+                                        NonArrayDesignator(
+                                         x
+                                        ) [NonArrayDesignator]
+                                        NoSubdesignators(
+                                        ) [NoSubdesignators]
+                                      ) [Designator]
+                                    ) [DesignFact]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [ActualParam]
+                          ) [Actuals]
+                        ) [FuncCall]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [PositiveExpr]
+                ) [DesignatorAssign]
+              ) [DesignAssign]
+            ) [DesignatorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            PositiveExpr(
+              SingleTerm(
+                SingleFactor(
+                  DesignFact(
+                    Designator(
+                      NonArrayDesignator(
+                       res
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [DesignFact]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PositiveExpr]
+            NoPrintParam(
+            ) [NoPrintParam]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:04:40,216 - ==============SEMANTICKA OBRADA===============
+INFO  17:04:40,326 - Pretraga na 6(broj), nadjeno Var broj: int, 0, 1 
+INFO  17:04:40,326 - Pretraga na 12(res), nadjeno Var res: int, 1, 1 
+INFO  17:04:40,326 - Pretraga na 12(f), nadjeno Meth f: int, 0, 1 
+INFO  17:04:40,357 - Pretraga na 12(x), nadjeno Var x: int, 0, 1 
+INFO  17:04:40,357 - Pretraga na 13(res), nadjeno Var res: int, 1, 1 
+INFO  17:04:40,357 - ==============SINTAKSNA ANALIZA===============
+INFO  17:04:40,357 - 0	 classes 
+INFO  17:04:40,357 - 2	 methods in the program 
+INFO  17:04:40,357 - 0	 global variables 
+INFO  17:04:40,357 - 0	 global constants 
+INFO  17:04:40,357 - 0	 global arrays 
+INFO  17:04:40,357 - 2	 local variables in main 
+INFO  17:04:40,357 - 2	 statements in main 
+INFO  17:04:40,357 - 1	 function calls in main 
+INFO  17:04:40,435 - Parsiranje uspesno zavrseno!

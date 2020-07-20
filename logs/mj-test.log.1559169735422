@@ -1,0 +1,49 @@
+INFO  00:39:52,104 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  00:39:52,220 - #2 program
+INFO  00:39:52,220 - #44 P
+INFO  00:39:52,220 - #7 const
+INFO  00:39:52,220 - #44 int
+INFO  00:39:52,220 - #44 size
+INFO  00:39:52,220 - #32 =
+INFO  00:39:52,220 - #45 10
+INFO  00:39:52,220 - #35 ;
+INFO  00:39:52,235 - #44 int
+INFO  00:39:52,235 - #44 a
+INFO  00:39:52,235 - #36 ,
+INFO  00:39:52,235 - #37 .
+ERROR 00:39:52,235 - 
+Sintaksna greska na liniji 3
+INFO  00:39:52,235 - #44 b
+INFO  00:39:52,235 - #36 ,
+INFO  00:39:52,235 - #44 c
+INFO  00:39:52,235 - #35 ;
+INFO  00:39:52,235 - #42 {
+DEBUG 00:39:52,235 - Uspesan oporavak od pogresne deklaracije globalne promenljive.
+INFO  00:39:52,251 - #12 void
+INFO  00:39:52,251 - #44 main
+INFO  00:39:52,251 - #38 (
+INFO  00:39:52,251 - #39 )
+INFO  00:39:52,251 - #44 int
+INFO  00:39:52,251 - #44 i
+INFO  00:39:52,251 - #35 ;
+INFO  00:39:52,251 - #42 {
+INFO  00:39:52,267 - #44 i
+INFO  00:39:52,267 - #33 ++
+INFO  00:39:52,267 - #35 ;
+INFO  00:39:52,267 - #44 i
+INFO  00:39:52,267 - #34 --
+INFO  00:39:52,267 - #35 ;
+INFO  00:39:52,267 - #44 i
+INFO  00:39:52,267 - #32 =
+INFO  00:39:52,267 - #44 i
+INFO  00:39:52,267 - #19 +
+INFO  00:39:52,267 - #45 2
+INFO  00:39:52,267 - #21 *
+INFO  00:39:52,267 - #21 *
+ERROR 00:39:52,267 - 
+Sintaksna greska na liniji 10
+INFO  00:39:52,267 - #20 -
+INFO  00:39:52,267 - #35 ;
+INFO  00:39:52,267 - #44 a
+INFO  00:39:52,267 - #33 ++
+INFO  00:39:52,267 - #35 ;

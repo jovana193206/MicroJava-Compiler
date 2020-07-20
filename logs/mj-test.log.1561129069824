@@ -1,0 +1,545 @@
+INFO  16:57:21,846 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\arrayTest.mj
+INFO  16:57:26,329 - #2 program
+INFO  16:57:26,329 - #44 P
+INFO  16:57:26,329 - #44 int
+INFO  16:57:26,405 - #44 niz
+INFO  16:57:26,421 - #35 [
+INFO  16:57:26,421 - #36 ]
+INFO  16:57:26,421 - #30 ;
+INFO  16:57:26,421 - #44 char
+INFO  16:57:26,421 - #44 nizch
+INFO  16:57:26,421 - #35 [
+INFO  16:57:26,421 - #36 ]
+INFO  16:57:26,421 - #30 ;
+INFO  16:57:26,421 - #37 {
+INFO  16:57:26,421 - #12 void
+INFO  16:57:26,452 - #44 main
+INFO  16:57:26,483 - #33 (
+INFO  16:57:26,499 - #34 )
+INFO  16:57:26,515 - #44 char
+INFO  16:57:26,530 - #44 c
+INFO  16:57:26,530 - #30 ;
+INFO  16:57:26,546 - #37 {
+INFO  16:57:26,608 - #44 c
+INFO  16:57:26,640 - #27 =
+INFO  16:57:26,671 - #46 a
+INFO  16:57:26,687 - #30 ;
+INFO  16:57:26,687 - #44 niz
+INFO  16:57:26,687 - #27 =
+INFO  16:57:26,687 - #8 new
+INFO  16:57:26,687 - #44 int
+INFO  16:57:26,687 - #35 [
+INFO  16:57:26,687 - #45 2
+INFO  16:57:26,687 - #36 ]
+INFO  16:57:26,687 - #30 ;
+INFO  16:57:26,702 - #44 niz
+INFO  16:57:26,702 - #35 [
+INFO  16:57:26,733 - #45 0
+INFO  16:57:26,733 - #36 ]
+INFO  16:57:26,733 - #27 =
+INFO  16:57:26,733 - #45 10
+INFO  16:57:26,733 - #30 ;
+INFO  16:57:26,733 - #44 niz
+INFO  16:57:26,733 - #35 [
+INFO  16:57:26,733 - #45 1
+INFO  16:57:26,733 - #36 ]
+INFO  16:57:26,733 - #27 =
+INFO  16:57:26,733 - #44 niz
+INFO  16:57:26,733 - #35 [
+INFO  16:57:26,733 - #44 nula
+INFO  16:57:26,733 - #36 ]
+INFO  16:57:26,733 - #39 +
+INFO  16:57:26,733 - #45 3
+INFO  16:57:26,796 - #30 ;
+INFO  16:57:26,796 - #9 print
+INFO  16:57:26,796 - #33 (
+INFO  16:57:26,796 - #44 niz
+INFO  16:57:26,796 - #35 [
+INFO  16:57:26,796 - #45 1
+INFO  16:57:26,796 - #34 )
+ERROR 16:57:26,796 - 
+Sintaksna greska na liniji 14
+INFO  16:57:26,796 - #30 ;
+INFO  16:57:26,796 - #44 nizch
+INFO  16:57:26,796 - #27 =
+INFO  16:57:26,796 - #8 new
+INFO  16:57:26,796 - #44 char
+INFO  16:57:26,843 - #35 [
+INFO  16:57:26,843 - #45 3
+INFO  16:57:26,843 - #36 ]
+INFO  16:57:26,843 - #30 ;
+INFO  16:57:26,843 - #44 nizch
+INFO  16:57:26,843 - #35 [
+INFO  16:57:26,843 - #45 0
+INFO  16:57:26,843 - #36 ]
+INFO  16:57:26,843 - #27 =
+INFO  16:57:26,843 - #44 c
+INFO  16:57:26,843 - #30 ;
+INFO  16:57:26,843 - #44 nizch
+INFO  16:57:26,843 - #35 [
+INFO  16:57:26,858 - #45 1
+INFO  16:57:26,858 - #36 ]
+INFO  16:57:26,858 - #27 =
+INFO  16:57:26,858 - #46 b
+INFO  16:57:26,858 - #30 ;
+INFO  16:57:26,858 - #9 print
+INFO  16:57:26,858 - #33 (
+INFO  16:57:26,858 - #44 niz
+INFO  16:57:26,858 - #35 [
+INFO  16:57:26,858 - #45 0
+INFO  16:57:26,858 - #36 ]
+INFO  16:57:26,858 - #34 )
+INFO  16:57:26,874 - #30 ;
+INFO  16:57:26,874 - #38 }
+INFO  16:57:26,874 - #38 }
+INFO  16:57:27,093 - ===============SINTAKSNO STABLO===============
+INFO  16:57:27,093 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      GlobalVar(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          SingleGlobalVarIdentList(
+            ArrayVarIdent(
+             niz
+            ) [ArrayVarIdent]
+          ) [SingleGlobalVarIdentList]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVar]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         char
+        ) [Type]
+        SingleGlobalVarIdentList(
+          ArrayVarIdent(
+           nizch
+          ) [ArrayVarIdent]
+        ) [SingleGlobalVarIdentList]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          SingleVarIdent(
+            NonArrayVarIdent(
+             c
+            ) [NonArrayVarIdent]
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        NoStmt(
+                        ) [NoStmt]
+                        MatchedStmt(
+                          DesignatorStmt(
+                            DesignAssign(
+                              Designator(
+                                NonArrayDesignator(
+                                 c
+                                ) [NonArrayDesignator]
+                                NoSubdesignators(
+                                ) [NoSubdesignators]
+                              ) [Designator]
+                              DesignatorAssign(
+                                Assignop(
+                                ) [Assignop]
+                                PositiveExpr(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        CharConst(
+                                         a
+                                        ) [CharConst]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [PositiveExpr]
+                              ) [DesignatorAssign]
+                            ) [DesignAssign]
+                          ) [DesignatorStmt]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        DesignatorStmt(
+                          DesignAssign(
+                            Designator(
+                              NonArrayDesignator(
+                               niz
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                            DesignatorAssign(
+                              Assignop(
+                              ) [Assignop]
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    NewFactArray(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      PositiveExpr(
+                                        SingleTerm(
+                                          SingleFactor(
+                                            Const(
+                                              NumConst(
+                                               2
+                                              ) [NumConst]
+                                            ) [Const]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                      ) [PositiveExpr]
+                                    ) [NewFactArray]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [DesignatorAssign]
+                          ) [DesignAssign]
+                        ) [DesignatorStmt]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      DesignatorStmt(
+                        DesignAssign(
+                          Designator(
+                            ArrayDesignator(
+                              ArrayName(
+                               niz
+                              ) [ArrayName]
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      NumConst(
+                                       0
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [ArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                          DesignatorAssign(
+                            Assignop(
+                            ) [Assignop]
+                            PositiveExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    NumConst(
+                                     10
+                                    ) [NumConst]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [PositiveExpr]
+                          ) [DesignatorAssign]
+                        ) [DesignAssign]
+                      ) [DesignatorStmt]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    DesignatorStmt(
+                      DesignAssign(
+                        Designator(
+                          ArrayDesignator(
+                            ArrayName(
+                             niz
+                            ) [ArrayName]
+                            PositiveExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    NumConst(
+                                     1
+                                    ) [NumConst]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [PositiveExpr]
+                          ) [ArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                        DesignatorAssign(
+                          Assignop(
+                          ) [Assignop]
+                          PositiveExpr(
+                            Terms(
+                              SingleTerm(
+                                SingleFactor(
+                                  DesignFact(
+                                    Designator(
+                                      ArrayDesignator(
+                                        ArrayName(
+                                         niz
+                                        ) [ArrayName]
+                                        PositiveExpr(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              DesignFact(
+                                                Designator(
+                                                  NonArrayDesignator(
+                                                   nula
+                                                  ) [NonArrayDesignator]
+                                                  NoSubdesignators(
+                                                  ) [NoSubdesignators]
+                                                ) [Designator]
+                                              ) [DesignFact]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [PositiveExpr]
+                                      ) [ArrayDesignator]
+                                      NoSubdesignators(
+                                      ) [NoSubdesignators]
+                                    ) [Designator]
+                                  ) [DesignFact]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                              AddopPlus(
+                              ) [AddopPlus]
+                              SingleFactor(
+                                Const(
+                                  NumConst(
+                                   3
+                                  ) [NumConst]
+                                ) [Const]
+                              ) [SingleFactor]
+                            ) [Terms]
+                          ) [PositiveExpr]
+                        ) [DesignatorAssign]
+                      ) [DesignAssign]
+                    ) [DesignatorStmt]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  DesignatorStmtErr(
+                  ) [DesignatorStmtErr]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignAssign(
+                    Designator(
+                      NonArrayDesignator(
+                       nizch
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                    DesignatorAssign(
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            NewFactArray(
+                              Type(
+                               char
+                              ) [Type]
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      NumConst(
+                                       3
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [NewFactArray]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                    ) [DesignatorAssign]
+                  ) [DesignAssign]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesignatorStmt(
+                DesignAssign(
+                  Designator(
+                    ArrayDesignator(
+                      ArrayName(
+                       nizch
+                      ) [ArrayName]
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              NumConst(
+                               0
+                              ) [NumConst]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                    ) [ArrayDesignator]
+                    NoSubdesignators(
+                    ) [NoSubdesignators]
+                  ) [Designator]
+                  DesignatorAssign(
+                    Assignop(
+                    ) [Assignop]
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          DesignFact(
+                            Designator(
+                              NonArrayDesignator(
+                               c
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                          ) [DesignFact]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                  ) [DesignatorAssign]
+                ) [DesignAssign]
+              ) [DesignatorStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesignatorStmt(
+              DesignAssign(
+                Designator(
+                  ArrayDesignator(
+                    ArrayName(
+                     nizch
+                    ) [ArrayName]
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            NumConst(
+                             1
+                            ) [NumConst]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                  ) [ArrayDesignator]
+                  NoSubdesignators(
+                  ) [NoSubdesignators]
+                ) [Designator]
+                DesignatorAssign(
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    SingleTerm(
+                      SingleFactor(
+                        Const(
+                          CharConst(
+                           b
+                          ) [CharConst]
+                        ) [Const]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [PositiveExpr]
+                ) [DesignatorAssign]
+              ) [DesignAssign]
+            ) [DesignatorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            PositiveExpr(
+              SingleTerm(
+                SingleFactor(
+                  DesignFact(
+                    Designator(
+                      ArrayDesignator(
+                        ArrayName(
+                         niz
+                        ) [ArrayName]
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              Const(
+                                NumConst(
+                                 0
+                                ) [NumConst]
+                              ) [Const]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                      ) [ArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [DesignFact]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PositiveExpr]
+            NoPrintParam(
+            ) [NoPrintParam]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:57:27,108 - ==============SEMANTICKA OBRADA===============
+INFO  16:57:27,327 - Pretraga na 10(c), nadjeno Var c: char, 0, 1 
+INFO  16:57:27,327 - Pretraga na 11(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  16:57:27,327 - Pretraga na 12(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  16:57:27,327 - Pretraga na 13(element niza niz), nadjeno element niza niz: int, -1, -1 
+ERROR 16:57:27,327 - Greska na 13 : nula nije deklarisano! 
+ERROR 16:57:27,327 - Greska na 13: izraz u [] mora biti int tipa 
+ERROR 16:57:27,327 - Greska na 13: nekompatibilni tipovi u izrazu za sabiranje
+ERROR 16:57:27,327 - Greska na 13: nekompatibilni tipovi u dodeli vrednosti
+INFO  16:57:27,327 - Pretraga na 16(nizch), nadjeno Var nizch: Arr of char, 1, 0 
+INFO  16:57:27,327 - Pretraga na 17(element niza nizch), nadjeno element niza nizch: char, -1, -1 
+INFO  16:57:27,327 - Pretraga na 17(c), nadjeno Var c: char, 0, 1 
+INFO  16:57:27,327 - Pretraga na 18(element niza nizch), nadjeno element niza nizch: char, -1, -1 
+INFO  16:57:27,327 - Pretraga na 19(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  16:57:27,327 - ==============SINTAKSNA ANALIZA===============
+INFO  16:57:27,327 - 0	 classes 
+INFO  16:57:27,327 - 1	 methods in the program 
+INFO  16:57:27,327 - 2	 global variables 
+INFO  16:57:27,327 - 0	 global constants 
+INFO  16:57:27,327 - 2	 global arrays 
+INFO  16:57:27,327 - 1	 local variables in main 
+INFO  16:57:27,327 - 9	 statements in main 
+INFO  16:57:27,327 - 0	 function calls in main 
+ERROR 16:57:27,361 - Parsiranje NIJE uspesno zavrseno!

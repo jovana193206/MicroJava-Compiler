@@ -1,0 +1,21 @@
+program P
+
+	int niz[];
+	char nizch[];
+	
+	{
+		void main() 
+			char c;
+		{
+			c = 'a';
+			niz = new int[2];
+			niz[0] = 10;
+			niz[1] = niz[0] + 3;
+			print(niz[1]);
+			
+			nizch = new char[3];
+			nizch[0] = c;
+			nizch[1] = 'b';
+			print(nizch[0]);
+		}
+	}

@@ -1,0 +1,293 @@
+INFO  16:59:29,585 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\boolTest.mj
+INFO  16:59:30,339 - #2 program
+INFO  16:59:30,339 - #44 P
+INFO  16:59:30,339 - #44 bool
+INFO  16:59:30,361 - #44 a1
+INFO  16:59:30,376 - #31 ,
+INFO  16:59:30,376 - #44 a2
+INFO  16:59:30,376 - #30 ;
+INFO  16:59:30,376 - #44 char
+INFO  16:59:30,376 - #44 c
+INFO  16:59:30,376 - #31 ,
+INFO  16:59:30,376 - #44 d
+INFO  16:59:30,376 - #30 ;
+INFO  16:59:30,376 - #37 {
+INFO  16:59:30,376 - #12 void
+INFO  16:59:30,392 - #44 main
+INFO  16:59:30,392 - #33 (
+INFO  16:59:30,392 - #34 )
+INFO  16:59:30,407 - #44 bool
+INFO  16:59:30,407 - #44 res
+INFO  16:59:30,407 - #30 ;
+INFO  16:59:30,407 - #37 {
+INFO  16:59:30,439 - #44 a1
+INFO  16:59:30,439 - #27 =
+INFO  16:59:30,455 - #47 1
+INFO  16:59:30,455 - #30 ;
+INFO  16:59:30,455 - #44 a2
+INFO  16:59:30,455 - #27 =
+INFO  16:59:30,455 - #47 0
+INFO  16:59:30,455 - #30 ;
+INFO  16:59:30,455 - #44 res
+INFO  16:59:30,455 - #27 =
+INFO  16:59:30,455 - #44 a1
+INFO  16:59:30,455 - #30 ;
+INFO  16:59:30,455 - #44 c
+INFO  16:59:30,455 - #27 =
+INFO  16:59:30,455 - #44 d
+INFO  16:59:30,455 - #30 ;
+INFO  16:59:30,455 - #9 print
+INFO  16:59:30,455 - #33 (
+INFO  16:59:30,455 - #44 res
+INFO  16:59:30,455 - #34 )
+INFO  16:59:30,455 - #30 ;
+INFO  16:59:30,455 - #38 }
+INFO  16:59:30,455 - #38 }
+INFO  16:59:30,502 - ===============SINTAKSNO STABLO===============
+INFO  16:59:30,502 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      GlobalVar(
+        GlobalVarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          GlobalVarIdents(
+            SingleGlobalVarIdentList(
+              NonArrayVarIdent(
+               a1
+              ) [NonArrayVarIdent]
+            ) [SingleGlobalVarIdentList]
+            GlVarIdentOk(
+              NonArrayVarIdent(
+               a2
+              ) [NonArrayVarIdent]
+            ) [GlVarIdentOk]
+          ) [GlobalVarIdents]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVar]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         char
+        ) [Type]
+        GlobalVarIdents(
+          SingleGlobalVarIdentList(
+            NonArrayVarIdent(
+             c
+            ) [NonArrayVarIdent]
+          ) [SingleGlobalVarIdentList]
+          GlVarIdentOk(
+            NonArrayVarIdent(
+             d
+            ) [NonArrayVarIdent]
+          ) [GlVarIdentOk]
+        ) [GlobalVarIdents]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          SingleVarIdent(
+            NonArrayVarIdent(
+             res
+            ) [NonArrayVarIdent]
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                MatchedStmt(
+                  DesignatorStmt(
+                    DesignAssign(
+                      Designator(
+                        NonArrayDesignator(
+                         a1
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                      DesignatorAssign(
+                        Assignop(
+                        ) [Assignop]
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              Const(
+                                BoolConst(
+                                 1
+                                ) [BoolConst]
+                              ) [Const]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                      ) [DesignatorAssign]
+                    ) [DesignAssign]
+                  ) [DesignatorStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignAssign(
+                    Designator(
+                      NonArrayDesignator(
+                       a2
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                    DesignatorAssign(
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              BoolConst(
+                               0
+                              ) [BoolConst]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                    ) [DesignatorAssign]
+                  ) [DesignAssign]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesignatorStmt(
+                DesignAssign(
+                  Designator(
+                    NonArrayDesignator(
+                     res
+                    ) [NonArrayDesignator]
+                    NoSubdesignators(
+                    ) [NoSubdesignators]
+                  ) [Designator]
+                  DesignatorAssign(
+                    Assignop(
+                    ) [Assignop]
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          DesignFact(
+                            Designator(
+                              NonArrayDesignator(
+                               a1
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                          ) [DesignFact]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                  ) [DesignatorAssign]
+                ) [DesignAssign]
+              ) [DesignatorStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesignatorStmt(
+              DesignAssign(
+                Designator(
+                  NonArrayDesignator(
+                   c
+                  ) [NonArrayDesignator]
+                  NoSubdesignators(
+                  ) [NoSubdesignators]
+                ) [Designator]
+                DesignatorAssign(
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    SingleTerm(
+                      SingleFactor(
+                        DesignFact(
+                          Designator(
+                            NonArrayDesignator(
+                             d
+                            ) [NonArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                        ) [DesignFact]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [PositiveExpr]
+                ) [DesignatorAssign]
+              ) [DesignAssign]
+            ) [DesignatorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            PositiveExpr(
+              SingleTerm(
+                SingleFactor(
+                  DesignFact(
+                    Designator(
+                      NonArrayDesignator(
+                       res
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [DesignFact]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PositiveExpr]
+            NoPrintParam(
+            ) [NoPrintParam]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:59:30,517 - ==============SEMANTICKA OBRADA===============
+INFO  16:59:30,587 - Pretraga na 8(a1), nadjeno Var a1: bool, 0, 0 
+INFO  16:59:30,587 - Pretraga na 9(a2), nadjeno Var a2: bool, 1, 0 
+INFO  16:59:30,587 - Pretraga na 10(res), nadjeno Var res: bool, 0, 1 
+INFO  16:59:30,587 - Pretraga na 10(a1), nadjeno Var a1: bool, 0, 0 
+INFO  16:59:30,587 - Pretraga na 11(c), nadjeno Var c: char, 2, 0 
+INFO  16:59:30,587 - Pretraga na 11(d), nadjeno Var d: char, 3, 0 
+INFO  16:59:30,587 - Pretraga na 12(res), nadjeno Var res: bool, 0, 1 
+INFO  16:59:30,587 - ==============SINTAKSNA ANALIZA===============
+INFO  16:59:30,587 - 0	 classes 
+INFO  16:59:30,587 - 1	 methods in the program 
+INFO  16:59:30,587 - 4	 global variables 
+INFO  16:59:30,587 - 0	 global constants 
+INFO  16:59:30,587 - 0	 global arrays 
+INFO  16:59:30,587 - 1	 local variables in main 
+INFO  16:59:30,587 - 5	 statements in main 
+INFO  16:59:30,587 - 0	 function calls in main 
+INFO  16:59:30,656 - Parsiranje uspesno zavrseno!

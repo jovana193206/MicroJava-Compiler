@@ -1,0 +1,1792 @@
+INFO  17:18:24,302 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\testB.mj
+INFO  17:18:24,421 - #2 program
+INFO  17:18:24,421 - #44 testB
+INFO  17:18:24,421 - #6 enum
+INFO  17:18:24,424 - #44 IncrementType
+INFO  17:18:24,424 - #37 {
+INFO  17:18:24,425 - #44 BY_ONE
+INFO  17:18:24,425 - #31 ,
+INFO  17:18:24,425 - #44 DOUBLE_VALUE
+INFO  17:18:24,426 - #38 }
+INFO  17:18:24,426 - #44 int
+INFO  17:18:24,427 - #44 i
+INFO  17:18:24,428 - #30 ;
+INFO  17:18:24,429 - #44 bool
+INFO  17:18:24,429 - #44 ibool
+INFO  17:18:24,429 - #30 ;
+INFO  17:18:24,429 - #44 int
+INFO  17:18:24,430 - #44 niz
+INFO  17:18:24,430 - #35 [
+INFO  17:18:24,430 - #36 ]
+INFO  17:18:24,430 - #30 ;
+INFO  17:18:24,432 - #37 {
+INFO  17:18:24,432 - #44 int
+INFO  17:18:24,434 - #44 sum
+INFO  17:18:24,434 - #33 (
+INFO  17:18:24,435 - #44 int
+INFO  17:18:24,435 - #44 z
+INFO  17:18:24,435 - #31 ,
+INFO  17:18:24,436 - #44 int
+INFO  17:18:24,436 - #44 d
+INFO  17:18:24,436 - #34 )
+INFO  17:18:24,437 - #37 {
+INFO  17:18:24,437 - #11 return
+INFO  17:18:24,439 - #44 z
+INFO  17:18:24,439 - #39 +
+INFO  17:18:24,442 - #44 d
+INFO  17:18:24,444 - #30 ;
+INFO  17:18:24,444 - #38 }
+INFO  17:18:24,445 - #44 int
+INFO  17:18:24,447 - #44 inkrement
+INFO  17:18:24,447 - #33 (
+INFO  17:18:24,447 - #44 int
+INFO  17:18:24,447 - #44 a
+INFO  17:18:24,447 - #31 ,
+INFO  17:18:24,447 - #44 IncrementType
+INFO  17:18:24,447 - #44 type
+INFO  17:18:24,447 - #34 )
+INFO  17:18:24,448 - #44 int
+INFO  17:18:24,448 - #44 pom
+INFO  17:18:24,448 - #30 ;
+INFO  17:18:24,448 - #37 {
+INFO  17:18:24,450 - #16 if
+INFO  17:18:24,450 - #33 (
+INFO  17:18:24,450 - #44 type
+INFO  17:18:24,450 - #19 ==
+INFO  17:18:24,450 - #44 IncrementType
+INFO  17:18:24,453 - #32 .
+INFO  17:18:24,453 - #44 BY_ONE
+INFO  17:18:24,453 - #34 )
+INFO  17:18:24,455 - #44 pom
+INFO  17:18:24,457 - #27 =
+INFO  17:18:24,457 - #45 1
+INFO  17:18:24,458 - #30 ;
+INFO  17:18:24,459 - #17 else
+INFO  17:18:24,461 - #16 if
+INFO  17:18:24,461 - #33 (
+INFO  17:18:24,462 - #44 type
+INFO  17:18:24,462 - #19 ==
+INFO  17:18:24,462 - #44 IncrementType
+INFO  17:18:24,462 - #32 .
+INFO  17:18:24,462 - #44 DOUBLE_VALUE
+INFO  17:18:24,462 - #34 )
+INFO  17:18:24,462 - #44 pom
+INFO  17:18:24,462 - #27 =
+INFO  17:18:24,463 - #44 a
+INFO  17:18:24,463 - #30 ;
+INFO  17:18:24,463 - #11 return
+INFO  17:18:24,464 - #44 sum
+INFO  17:18:24,464 - #33 (
+INFO  17:18:24,464 - #44 a
+INFO  17:18:24,465 - #31 ,
+INFO  17:18:24,466 - #44 pom
+INFO  17:18:24,466 - #34 )
+INFO  17:18:24,466 - #30 ;
+INFO  17:18:24,466 - #38 }
+INFO  17:18:24,467 - #12 void
+INFO  17:18:24,467 - #44 main
+INFO  17:18:24,467 - #33 (
+INFO  17:18:24,468 - #34 )
+INFO  17:18:24,468 - #37 {
+INFO  17:18:24,468 - #16 if
+INFO  17:18:24,468 - #33 (
+INFO  17:18:24,468 - #45 1
+INFO  17:18:24,468 - #20 !=
+INFO  17:18:24,469 - #45 1
+INFO  17:18:24,469 - #34 )
+INFO  17:18:24,470 - #9 print
+INFO  17:18:24,470 - #33 (
+INFO  17:18:24,470 - #40 -
+INFO  17:18:24,470 - #45 6
+INFO  17:18:24,470 - #34 )
+INFO  17:18:24,471 - #30 ;
+INFO  17:18:24,471 - #17 else
+INFO  17:18:24,471 - #9 print
+INFO  17:18:24,471 - #33 (
+INFO  17:18:24,471 - #45 0
+INFO  17:18:24,471 - #34 )
+INFO  17:18:24,472 - #30 ;
+INFO  17:18:24,472 - #44 ibool
+INFO  17:18:24,472 - #27 =
+INFO  17:18:24,472 - #47 0
+INFO  17:18:24,472 - #30 ;
+INFO  17:18:24,472 - #44 i
+INFO  17:18:24,473 - #27 =
+INFO  17:18:24,473 - #45 0
+INFO  17:18:24,473 - #30 ;
+INFO  17:18:24,473 - #16 if
+INFO  17:18:24,473 - #33 (
+INFO  17:18:24,473 - #44 ibool
+INFO  17:18:24,473 - #34 )
+INFO  17:18:24,474 - #16 if
+INFO  17:18:24,474 - #33 (
+INFO  17:18:24,474 - #44 i
+INFO  17:18:24,474 - #19 ==
+INFO  17:18:24,474 - #45 5
+INFO  17:18:24,474 - #34 )
+INFO  17:18:24,474 - #9 print
+INFO  17:18:24,475 - #33 (
+INFO  17:18:24,475 - #45 1
+INFO  17:18:24,475 - #34 )
+INFO  17:18:24,475 - #30 ;
+INFO  17:18:24,475 - #17 else
+INFO  17:18:24,475 - #9 print
+INFO  17:18:24,475 - #33 (
+INFO  17:18:24,476 - #40 -
+INFO  17:18:24,476 - #45 1
+INFO  17:18:24,477 - #34 )
+INFO  17:18:24,477 - #30 ;
+INFO  17:18:24,477 - #44 niz
+INFO  17:18:24,477 - #27 =
+INFO  17:18:24,480 - #8 new
+INFO  17:18:24,480 - #44 int
+INFO  17:18:24,480 - #35 [
+INFO  17:18:24,481 - #45 3
+INFO  17:18:24,481 - #36 ]
+INFO  17:18:24,481 - #37 {
+INFO  17:18:24,483 - #45 1
+INFO  17:18:24,484 - #31 ,
+INFO  17:18:24,485 - #45 2
+INFO  17:18:24,485 - #31 ,
+INFO  17:18:24,486 - #44 sum
+INFO  17:18:24,486 - #33 (
+INFO  17:18:24,486 - #44 niz
+INFO  17:18:24,486 - #35 [
+INFO  17:18:24,487 - #45 1
+INFO  17:18:24,487 - #36 ]
+INFO  17:18:24,487 - #31 ,
+INFO  17:18:24,488 - #44 niz
+INFO  17:18:24,488 - #35 [
+INFO  17:18:24,488 - #45 0
+INFO  17:18:24,488 - #36 ]
+INFO  17:18:24,488 - #34 )
+INFO  17:18:24,488 - #39 +
+INFO  17:18:24,488 - #45 1
+INFO  17:18:24,488 - #38 }
+INFO  17:18:24,488 - #30 ;
+INFO  17:18:24,488 - #16 if
+INFO  17:18:24,489 - #33 (
+INFO  17:18:24,489 - #44 niz
+INFO  17:18:24,489 - #35 [
+INFO  17:18:24,489 - #45 2
+INFO  17:18:24,489 - #36 ]
+INFO  17:18:24,489 - #19 ==
+INFO  17:18:24,489 - #45 4
+INFO  17:18:24,489 - #34 )
+INFO  17:18:24,489 - #9 print
+INFO  17:18:24,490 - #33 (
+INFO  17:18:24,490 - #44 ord
+INFO  17:18:24,490 - #33 (
+INFO  17:18:24,490 - #46 A
+INFO  17:18:24,490 - #34 )
+INFO  17:18:24,490 - #34 )
+INFO  17:18:24,490 - #30 ;
+INFO  17:18:24,490 - #17 else
+INFO  17:18:24,490 - #9 print
+INFO  17:18:24,490 - #33 (
+INFO  17:18:24,491 - #44 ord
+INFO  17:18:24,491 - #33 (
+INFO  17:18:24,491 - #46 a
+INFO  17:18:24,491 - #34 )
+INFO  17:18:24,491 - #34 )
+INFO  17:18:24,491 - #30 ;
+INFO  17:18:24,491 - #9 print
+INFO  17:18:24,491 - #33 (
+INFO  17:18:24,491 - #44 eol
+INFO  17:18:24,491 - #34 )
+INFO  17:18:24,491 - #30 ;
+INFO  17:18:24,491 - #44 i
+INFO  17:18:24,491 - #27 =
+INFO  17:18:24,492 - #45 0
+INFO  17:18:24,492 - #30 ;
+INFO  17:18:24,492 - #16 if
+INFO  17:18:24,492 - #33 (
+INFO  17:18:24,492 - #44 i
+INFO  17:18:24,492 - #19 ==
+INFO  17:18:24,492 - #45 3
+INFO  17:18:24,492 - #34 )
+INFO  17:18:24,492 - #9 print
+INFO  17:18:24,492 - #33 (
+INFO  17:18:24,492 - #45 4
+INFO  17:18:24,492 - #34 )
+INFO  17:18:24,492 - #30 ;
+INFO  17:18:24,492 - #17 else
+INFO  17:18:24,493 - #9 print
+INFO  17:18:24,493 - #33 (
+INFO  17:18:24,493 - #40 -
+INFO  17:18:24,493 - #45 4
+INFO  17:18:24,493 - #34 )
+INFO  17:18:24,493 - #30 ;
+INFO  17:18:24,493 - #10 read
+INFO  17:18:24,493 - #33 (
+INFO  17:18:24,493 - #44 niz
+INFO  17:18:24,493 - #35 [
+INFO  17:18:24,493 - #45 0
+INFO  17:18:24,493 - #36 ]
+INFO  17:18:24,493 - #34 )
+INFO  17:18:24,494 - #30 ;
+INFO  17:18:24,494 - #10 read
+INFO  17:18:24,494 - #33 (
+INFO  17:18:24,494 - #44 niz
+INFO  17:18:24,494 - #35 [
+INFO  17:18:24,494 - #45 1
+INFO  17:18:24,494 - #36 ]
+INFO  17:18:24,494 - #34 )
+INFO  17:18:24,494 - #30 ;
+INFO  17:18:24,494 - #10 read
+INFO  17:18:24,495 - #33 (
+INFO  17:18:24,495 - #44 niz
+INFO  17:18:24,495 - #35 [
+INFO  17:18:24,495 - #45 2
+INFO  17:18:24,495 - #36 ]
+INFO  17:18:24,495 - #34 )
+INFO  17:18:24,495 - #30 ;
+INFO  17:18:24,495 - #9 print
+INFO  17:18:24,495 - #33 (
+INFO  17:18:24,496 - #44 eol
+INFO  17:18:24,496 - #34 )
+INFO  17:18:24,496 - #30 ;
+INFO  17:18:24,496 - #9 print
+INFO  17:18:24,496 - #33 (
+INFO  17:18:24,496 - #44 sum
+INFO  17:18:24,496 - #33 (
+INFO  17:18:24,496 - #44 sum
+INFO  17:18:24,496 - #33 (
+INFO  17:18:24,496 - #44 niz
+INFO  17:18:24,496 - #35 [
+INFO  17:18:24,497 - #45 0
+INFO  17:18:24,497 - #36 ]
+INFO  17:18:24,497 - #31 ,
+INFO  17:18:24,497 - #44 niz
+INFO  17:18:24,497 - #35 [
+INFO  17:18:24,497 - #45 1
+INFO  17:18:24,497 - #36 ]
+INFO  17:18:24,497 - #34 )
+INFO  17:18:24,497 - #31 ,
+INFO  17:18:24,497 - #44 niz
+INFO  17:18:24,497 - #35 [
+INFO  17:18:24,497 - #45 2
+INFO  17:18:24,497 - #36 ]
+INFO  17:18:24,498 - #34 )
+INFO  17:18:24,498 - #34 )
+INFO  17:18:24,498 - #30 ;
+INFO  17:18:24,498 - #9 print
+INFO  17:18:24,498 - #33 (
+INFO  17:18:24,498 - #44 eol
+INFO  17:18:24,498 - #34 )
+INFO  17:18:24,498 - #30 ;
+INFO  17:18:24,498 - #9 print
+INFO  17:18:24,498 - #33 (
+INFO  17:18:24,498 - #44 inkrement
+INFO  17:18:24,498 - #33 (
+INFO  17:18:24,498 - #44 niz
+INFO  17:18:24,499 - #35 [
+INFO  17:18:24,499 - #45 2
+INFO  17:18:24,499 - #36 ]
+INFO  17:18:24,499 - #31 ,
+INFO  17:18:24,499 - #44 IncrementType
+INFO  17:18:24,499 - #32 .
+INFO  17:18:24,499 - #44 DOUBLE_VALUE
+INFO  17:18:24,499 - #34 )
+INFO  17:18:24,499 - #34 )
+INFO  17:18:24,499 - #30 ;
+INFO  17:18:24,499 - #38 }
+INFO  17:18:24,499 - #38 }
+INFO  17:18:24,527 - Program(
+  ProgName(
+   testB
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      Declarations(
+        Declarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          EnumDeclaration(
+            EnumDecl(
+              EnumName(
+               IncrementType
+              ) [EnumName]
+              EnumElems(
+                SingleEnumElem(
+                  NoInitEnumElem(
+                   BY_ONE
+                  ) [NoInitEnumElem]
+                ) [SingleEnumElem]
+                NoInitEnumElem(
+                 DOUBLE_VALUE
+                ) [NoInitEnumElem]
+              ) [EnumElems]
+            ) [EnumDecl]
+          ) [EnumDeclaration]
+        ) [Declarations]
+        GlobalVar(
+          GlobalVarDeclaration(
+            Type(
+             int
+            ) [Type]
+            SingleGlobalVarIdentList(
+              NonArrayVarIdent(
+               i
+              ) [NonArrayVarIdent]
+            ) [SingleGlobalVarIdentList]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVar]
+      ) [Declarations]
+      GlobalVar(
+        GlobalVarDeclaration(
+          Type(
+           bool
+          ) [Type]
+          SingleGlobalVarIdentList(
+            NonArrayVarIdent(
+             ibool
+            ) [NonArrayVarIdent]
+          ) [SingleGlobalVarIdentList]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVar]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVarIdentList(
+          ArrayVarIdent(
+           niz
+          ) [ArrayVarIdent]
+        ) [SingleGlobalVarIdentList]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+        MethodDecl(
+          MethodTypeName(
+            MethodReturnTypeT(
+              Type(
+               int
+              ) [Type]
+            ) [MethodReturnTypeT]
+           sum
+          ) [MethodTypeName]
+          FormParams(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                FormalParam(
+                  Type(
+                   int
+                  ) [Type]
+                  NonArrayVarIdent(
+                   z
+                  ) [NonArrayVarIdent]
+                ) [FormalParam]
+              ) [SingleFormalParamDecl]
+              FormalParam(
+                Type(
+                 int
+                ) [Type]
+                NonArrayVarIdent(
+                 d
+                ) [NonArrayVarIdent]
+              ) [FormalParam]
+            ) [FormalParamDecls]
+          ) [FormParams]
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            MatchedStmt(
+              ReturnExpr(
+                PositiveExpr(
+                  Terms(
+                    SingleTerm(
+                      SingleFactor(
+                        DesignFact(
+                          Designator(
+                            NonArrayDesignator(
+                             z
+                            ) [NonArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                        ) [DesignFact]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    SingleFactor(
+                      DesignFact(
+                        Designator(
+                          NonArrayDesignator(
+                           d
+                          ) [NonArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                      ) [DesignFact]
+                    ) [SingleFactor]
+                  ) [Terms]
+                ) [PositiveExpr]
+              ) [ReturnExpr]
+            ) [MatchedStmt]
+          ) [Statements]
+        ) [MethodDecl]
+      ) [MethodDeclarations]
+      MethodDecl(
+        MethodTypeName(
+          MethodReturnTypeT(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeT]
+         inkrement
+        ) [MethodTypeName]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParam(
+                Type(
+                 int
+                ) [Type]
+                NonArrayVarIdent(
+                 a
+                ) [NonArrayVarIdent]
+              ) [FormalParam]
+            ) [SingleFormalParamDecl]
+            FormalParam(
+              Type(
+               IncrementType
+              ) [Type]
+              NonArrayVarIdent(
+               type
+              ) [NonArrayVarIdent]
+            ) [FormalParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        VarDeclarations(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            SingleVarIdent(
+              NonArrayVarIdent(
+               pom
+              ) [NonArrayVarIdent]
+            ) [SingleVarIdent]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            UnmatchedStmt(
+              UnmatchedIfElse(
+                IfCond(
+                  SingleCondition(
+                    SingleCondTerm(
+                      BinaryCondFact(
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              DesignFact(
+                                Designator(
+                                  NonArrayDesignator(
+                                   type
+                                  ) [NonArrayDesignator]
+                                  NoSubdesignators(
+                                  ) [NoSubdesignators]
+                                ) [Designator]
+                              ) [DesignFact]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                        RelopEqual(
+                        ) [RelopEqual]
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              DesignFact(
+                                Designator(
+                                  NonArrayDesignator(
+                                   IncrementType
+                                  ) [NonArrayDesignator]
+                                  Subdesignators(
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                    Subdesignator(
+                                      NonArrayDesignator(
+                                       BY_ONE
+                                      ) [NonArrayDesignator]
+                                    ) [Subdesignator]
+                                  ) [Subdesignators]
+                                ) [Designator]
+                              ) [DesignFact]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                      ) [BinaryCondFact]
+                    ) [SingleCondTerm]
+                  ) [SingleCondition]
+                ) [IfCond]
+                MatchedThen(
+                  DesignatorStmt(
+                    DesignAssignStmt(
+                      DesignAssign(
+                        Designator(
+                          NonArrayDesignator(
+                           pom
+                          ) [NonArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                        DesignatorAssign(
+                          Assignop(
+                          ) [Assignop]
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                Const(
+                                  NumConst(
+                                   1
+                                  ) [NumConst]
+                                ) [Const]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                        ) [DesignatorAssign]
+                      ) [DesignAssign]
+                    ) [DesignAssignStmt]
+                  ) [DesignatorStmt]
+                ) [MatchedThen]
+                UnmatchedIf(
+                  IfCond(
+                    SingleCondition(
+                      SingleCondTerm(
+                        BinaryCondFact(
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    NonArrayDesignator(
+                                     type
+                                    ) [NonArrayDesignator]
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                          RelopEqual(
+                          ) [RelopEqual]
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    NonArrayDesignator(
+                                     IncrementType
+                                    ) [NonArrayDesignator]
+                                    Subdesignators(
+                                      NoSubdesignators(
+                                      ) [NoSubdesignators]
+                                      Subdesignator(
+                                        NonArrayDesignator(
+                                         DOUBLE_VALUE
+                                        ) [NonArrayDesignator]
+                                      ) [Subdesignator]
+                                    ) [Subdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                        ) [BinaryCondFact]
+                      ) [SingleCondTerm]
+                    ) [SingleCondition]
+                  ) [IfCond]
+                  UnmatchedThen(
+                    MatchedStmt(
+                      DesignatorStmt(
+                        DesignAssignStmt(
+                          DesignAssign(
+                            Designator(
+                              NonArrayDesignator(
+                               pom
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                            DesignatorAssign(
+                              Assignop(
+                              ) [Assignop]
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    DesignFact(
+                                      Designator(
+                                        NonArrayDesignator(
+                                         a
+                                        ) [NonArrayDesignator]
+                                        NoSubdesignators(
+                                        ) [NoSubdesignators]
+                                      ) [Designator]
+                                    ) [DesignFact]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [DesignatorAssign]
+                          ) [DesignAssign]
+                        ) [DesignAssignStmt]
+                      ) [DesignatorStmt]
+                    ) [MatchedStmt]
+                  ) [UnmatchedThen]
+                ) [UnmatchedIf]
+              ) [UnmatchedIfElse]
+            ) [UnmatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ReturnExpr(
+              PositiveExpr(
+                SingleTerm(
+                  SingleFactor(
+                    FuncCall(
+                      MethodCalled(
+                        Designator(
+                          NonArrayDesignator(
+                           sum
+                          ) [NonArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                      ) [MethodCalled]
+                      Actuals(
+                        ActualParams(
+                          ActualParam(
+                            PositiveExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  DesignFact(
+                                    Designator(
+                                      NonArrayDesignator(
+                                       a
+                                      ) [NonArrayDesignator]
+                                      NoSubdesignators(
+                                      ) [NoSubdesignators]
+                                    ) [Designator]
+                                  ) [DesignFact]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [PositiveExpr]
+                          ) [ActualParam]
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    NonArrayDesignator(
+                                     pom
+                                    ) [NonArrayDesignator]
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                        ) [ActualParams]
+                      ) [Actuals]
+                    ) [FuncCall]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [PositiveExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      NoStmt(
+                                      ) [NoStmt]
+                                      MatchedStmt(
+                                        MatchedIfElse(
+                                          IfCond(
+                                            SingleCondition(
+                                              SingleCondTerm(
+                                                BinaryCondFact(
+                                                  PositiveExpr(
+                                                    SingleTerm(
+                                                      SingleFactor(
+                                                        Const(
+                                                          NumConst(
+                                                           1
+                                                          ) [NumConst]
+                                                        ) [Const]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveExpr]
+                                                  RelopNotEqual(
+                                                  ) [RelopNotEqual]
+                                                  PositiveExpr(
+                                                    SingleTerm(
+                                                      SingleFactor(
+                                                        Const(
+                                                          NumConst(
+                                                           1
+                                                          ) [NumConst]
+                                                        ) [Const]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveExpr]
+                                                ) [BinaryCondFact]
+                                              ) [SingleCondTerm]
+                                            ) [SingleCondition]
+                                          ) [IfCond]
+                                          MatchedThen(
+                                            PrintStmt(
+                                              NegativeExpr(
+                                                SingleTerm(
+                                                  SingleFactor(
+                                                    Const(
+                                                      NumConst(
+                                                       6
+                                                      ) [NumConst]
+                                                    ) [Const]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [NegativeExpr]
+                                              NoPrintParam(
+                                              ) [NoPrintParam]
+                                            ) [PrintStmt]
+                                          ) [MatchedThen]
+                                          PrintStmt(
+                                            PositiveExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  Const(
+                                                    NumConst(
+                                                     0
+                                                    ) [NumConst]
+                                                  ) [Const]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [PositiveExpr]
+                                            NoPrintParam(
+                                            ) [NoPrintParam]
+                                          ) [PrintStmt]
+                                        ) [MatchedIfElse]
+                                      ) [MatchedStmt]
+                                    ) [Statements]
+                                    MatchedStmt(
+                                      DesignatorStmt(
+                                        DesignAssignStmt(
+                                          DesignAssign(
+                                            Designator(
+                                              NonArrayDesignator(
+                                               ibool
+                                              ) [NonArrayDesignator]
+                                              NoSubdesignators(
+                                              ) [NoSubdesignators]
+                                            ) [Designator]
+                                            DesignatorAssign(
+                                              Assignop(
+                                              ) [Assignop]
+                                              PositiveExpr(
+                                                SingleTerm(
+                                                  SingleFactor(
+                                                    Const(
+                                                      BoolConst(
+                                                       0
+                                                      ) [BoolConst]
+                                                    ) [Const]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [PositiveExpr]
+                                            ) [DesignatorAssign]
+                                          ) [DesignAssign]
+                                        ) [DesignAssignStmt]
+                                      ) [DesignatorStmt]
+                                    ) [MatchedStmt]
+                                  ) [Statements]
+                                  MatchedStmt(
+                                    DesignatorStmt(
+                                      DesignAssignStmt(
+                                        DesignAssign(
+                                          Designator(
+                                            NonArrayDesignator(
+                                             i
+                                            ) [NonArrayDesignator]
+                                            NoSubdesignators(
+                                            ) [NoSubdesignators]
+                                          ) [Designator]
+                                          DesignatorAssign(
+                                            Assignop(
+                                            ) [Assignop]
+                                            PositiveExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  Const(
+                                                    NumConst(
+                                                     0
+                                                    ) [NumConst]
+                                                  ) [Const]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [PositiveExpr]
+                                          ) [DesignatorAssign]
+                                        ) [DesignAssign]
+                                      ) [DesignAssignStmt]
+                                    ) [DesignatorStmt]
+                                  ) [MatchedStmt]
+                                ) [Statements]
+                                UnmatchedStmt(
+                                  UnmatchedIf(
+                                    IfCond(
+                                      SingleCondition(
+                                        SingleCondTerm(
+                                          UnaryCondFact(
+                                            PositiveExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  DesignFact(
+                                                    Designator(
+                                                      NonArrayDesignator(
+                                                       ibool
+                                                      ) [NonArrayDesignator]
+                                                      NoSubdesignators(
+                                                      ) [NoSubdesignators]
+                                                    ) [Designator]
+                                                  ) [DesignFact]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [PositiveExpr]
+                                          ) [UnaryCondFact]
+                                        ) [SingleCondTerm]
+                                      ) [SingleCondition]
+                                    ) [IfCond]
+                                    UnmatchedThen(
+                                      MatchedStmt(
+                                        MatchedIfElse(
+                                          IfCond(
+                                            SingleCondition(
+                                              SingleCondTerm(
+                                                BinaryCondFact(
+                                                  PositiveExpr(
+                                                    SingleTerm(
+                                                      SingleFactor(
+                                                        DesignFact(
+                                                          Designator(
+                                                            NonArrayDesignator(
+                                                             i
+                                                            ) [NonArrayDesignator]
+                                                            NoSubdesignators(
+                                                            ) [NoSubdesignators]
+                                                          ) [Designator]
+                                                        ) [DesignFact]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveExpr]
+                                                  RelopEqual(
+                                                  ) [RelopEqual]
+                                                  PositiveExpr(
+                                                    SingleTerm(
+                                                      SingleFactor(
+                                                        Const(
+                                                          NumConst(
+                                                           5
+                                                          ) [NumConst]
+                                                        ) [Const]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveExpr]
+                                                ) [BinaryCondFact]
+                                              ) [SingleCondTerm]
+                                            ) [SingleCondition]
+                                          ) [IfCond]
+                                          MatchedThen(
+                                            PrintStmt(
+                                              PositiveExpr(
+                                                SingleTerm(
+                                                  SingleFactor(
+                                                    Const(
+                                                      NumConst(
+                                                       1
+                                                      ) [NumConst]
+                                                    ) [Const]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [PositiveExpr]
+                                              NoPrintParam(
+                                              ) [NoPrintParam]
+                                            ) [PrintStmt]
+                                          ) [MatchedThen]
+                                          PrintStmt(
+                                            NegativeExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  Const(
+                                                    NumConst(
+                                                     1
+                                                    ) [NumConst]
+                                                  ) [Const]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [NegativeExpr]
+                                            NoPrintParam(
+                                            ) [NoPrintParam]
+                                          ) [PrintStmt]
+                                        ) [MatchedIfElse]
+                                      ) [MatchedStmt]
+                                    ) [UnmatchedThen]
+                                  ) [UnmatchedIf]
+                                ) [UnmatchedStmt]
+                              ) [Statements]
+                              MatchedStmt(
+                                DesignatorStmt(
+                                  NewArrayInit(
+                                    DesignAssign(
+                                      Designator(
+                                        NonArrayDesignator(
+                                         niz
+                                        ) [NonArrayDesignator]
+                                        NoSubdesignators(
+                                        ) [NoSubdesignators]
+                                      ) [Designator]
+                                      DesignatorAssign(
+                                        Assignop(
+                                        ) [Assignop]
+                                        PositiveExpr(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              NewFactArray(
+                                                NewArray(
+                                                  Type(
+                                                   int
+                                                  ) [Type]
+                                                  PositiveExpr(
+                                                    SingleTerm(
+                                                      SingleFactor(
+                                                        Const(
+                                                          NumConst(
+                                                           3
+                                                          ) [NumConst]
+                                                        ) [Const]
+                                                      ) [SingleFactor]
+                                                    ) [SingleTerm]
+                                                  ) [PositiveExpr]
+                                                ) [NewArray]
+                                              ) [NewFactArray]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [PositiveExpr]
+                                      ) [DesignatorAssign]
+                                    ) [DesignAssign]
+                                    InitLst(
+                                      InitListStart(
+                                      ) [InitListStart]
+                                      ExprLst(
+                                        ExprLst(
+                                          SingleExprLst(
+                                            InitElem(
+                                              PositiveExpr(
+                                                SingleTerm(
+                                                  SingleFactor(
+                                                    Const(
+                                                      NumConst(
+                                                       1
+                                                      ) [NumConst]
+                                                    ) [Const]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [PositiveExpr]
+                                            ) [InitElem]
+                                          ) [SingleExprLst]
+                                          InitElem(
+                                            PositiveExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  Const(
+                                                    NumConst(
+                                                     2
+                                                    ) [NumConst]
+                                                  ) [Const]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [PositiveExpr]
+                                          ) [InitElem]
+                                        ) [ExprLst]
+                                        InitElem(
+                                          PositiveExpr(
+                                            Terms(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  FuncCall(
+                                                    MethodCalled(
+                                                      Designator(
+                                                        NonArrayDesignator(
+                                                         sum
+                                                        ) [NonArrayDesignator]
+                                                        NoSubdesignators(
+                                                        ) [NoSubdesignators]
+                                                      ) [Designator]
+                                                    ) [MethodCalled]
+                                                    Actuals(
+                                                      ActualParams(
+                                                        ActualParam(
+                                                          PositiveExpr(
+                                                            SingleTerm(
+                                                              SingleFactor(
+                                                                DesignFact(
+                                                                  Designator(
+                                                                    ArrayDesignator(
+                                                                      ArrayName(
+                                                                       niz
+                                                                      ) [ArrayName]
+                                                                      PositiveExpr(
+                                                                        SingleTerm(
+                                                                          SingleFactor(
+                                                                            Const(
+                                                                              NumConst(
+                                                                               1
+                                                                              ) [NumConst]
+                                                                            ) [Const]
+                                                                          ) [SingleFactor]
+                                                                        ) [SingleTerm]
+                                                                      ) [PositiveExpr]
+                                                                    ) [ArrayDesignator]
+                                                                    NoSubdesignators(
+                                                                    ) [NoSubdesignators]
+                                                                  ) [Designator]
+                                                                ) [DesignFact]
+                                                              ) [SingleFactor]
+                                                            ) [SingleTerm]
+                                                          ) [PositiveExpr]
+                                                        ) [ActualParam]
+                                                        PositiveExpr(
+                                                          SingleTerm(
+                                                            SingleFactor(
+                                                              DesignFact(
+                                                                Designator(
+                                                                  ArrayDesignator(
+                                                                    ArrayName(
+                                                                     niz
+                                                                    ) [ArrayName]
+                                                                    PositiveExpr(
+                                                                      SingleTerm(
+                                                                        SingleFactor(
+                                                                          Const(
+                                                                            NumConst(
+                                                                             0
+                                                                            ) [NumConst]
+                                                                          ) [Const]
+                                                                        ) [SingleFactor]
+                                                                      ) [SingleTerm]
+                                                                    ) [PositiveExpr]
+                                                                  ) [ArrayDesignator]
+                                                                  NoSubdesignators(
+                                                                  ) [NoSubdesignators]
+                                                                ) [Designator]
+                                                              ) [DesignFact]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [PositiveExpr]
+                                                      ) [ActualParams]
+                                                    ) [Actuals]
+                                                  ) [FuncCall]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                              AddopPlus(
+                                              ) [AddopPlus]
+                                              SingleFactor(
+                                                Const(
+                                                  NumConst(
+                                                   1
+                                                  ) [NumConst]
+                                                ) [Const]
+                                              ) [SingleFactor]
+                                            ) [Terms]
+                                          ) [PositiveExpr]
+                                        ) [InitElem]
+                                      ) [ExprLst]
+                                    ) [InitLst]
+                                  ) [NewArrayInit]
+                                ) [DesignatorStmt]
+                              ) [MatchedStmt]
+                            ) [Statements]
+                            MatchedStmt(
+                              MatchedIfElse(
+                                IfCond(
+                                  SingleCondition(
+                                    SingleCondTerm(
+                                      BinaryCondFact(
+                                        PositiveExpr(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              DesignFact(
+                                                Designator(
+                                                  ArrayDesignator(
+                                                    ArrayName(
+                                                     niz
+                                                    ) [ArrayName]
+                                                    PositiveExpr(
+                                                      SingleTerm(
+                                                        SingleFactor(
+                                                          Const(
+                                                            NumConst(
+                                                             2
+                                                            ) [NumConst]
+                                                          ) [Const]
+                                                        ) [SingleFactor]
+                                                      ) [SingleTerm]
+                                                    ) [PositiveExpr]
+                                                  ) [ArrayDesignator]
+                                                  NoSubdesignators(
+                                                  ) [NoSubdesignators]
+                                                ) [Designator]
+                                              ) [DesignFact]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [PositiveExpr]
+                                        RelopEqual(
+                                        ) [RelopEqual]
+                                        PositiveExpr(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              Const(
+                                                NumConst(
+                                                 4
+                                                ) [NumConst]
+                                              ) [Const]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [PositiveExpr]
+                                      ) [BinaryCondFact]
+                                    ) [SingleCondTerm]
+                                  ) [SingleCondition]
+                                ) [IfCond]
+                                MatchedThen(
+                                  PrintStmt(
+                                    PositiveExpr(
+                                      SingleTerm(
+                                        SingleFactor(
+                                          FuncCall(
+                                            MethodCalled(
+                                              Designator(
+                                                NonArrayDesignator(
+                                                 ord
+                                                ) [NonArrayDesignator]
+                                                NoSubdesignators(
+                                                ) [NoSubdesignators]
+                                              ) [Designator]
+                                            ) [MethodCalled]
+                                            Actuals(
+                                              ActualParam(
+                                                PositiveExpr(
+                                                  SingleTerm(
+                                                    SingleFactor(
+                                                      Const(
+                                                        CharConst(
+                                                         A
+                                                        ) [CharConst]
+                                                      ) [Const]
+                                                    ) [SingleFactor]
+                                                  ) [SingleTerm]
+                                                ) [PositiveExpr]
+                                              ) [ActualParam]
+                                            ) [Actuals]
+                                          ) [FuncCall]
+                                        ) [SingleFactor]
+                                      ) [SingleTerm]
+                                    ) [PositiveExpr]
+                                    NoPrintParam(
+                                    ) [NoPrintParam]
+                                  ) [PrintStmt]
+                                ) [MatchedThen]
+                                PrintStmt(
+                                  PositiveExpr(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        FuncCall(
+                                          MethodCalled(
+                                            Designator(
+                                              NonArrayDesignator(
+                                               ord
+                                              ) [NonArrayDesignator]
+                                              NoSubdesignators(
+                                              ) [NoSubdesignators]
+                                            ) [Designator]
+                                          ) [MethodCalled]
+                                          Actuals(
+                                            ActualParam(
+                                              PositiveExpr(
+                                                SingleTerm(
+                                                  SingleFactor(
+                                                    Const(
+                                                      CharConst(
+                                                       a
+                                                      ) [CharConst]
+                                                    ) [Const]
+                                                  ) [SingleFactor]
+                                                ) [SingleTerm]
+                                              ) [PositiveExpr]
+                                            ) [ActualParam]
+                                          ) [Actuals]
+                                        ) [FuncCall]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [PositiveExpr]
+                                  NoPrintParam(
+                                  ) [NoPrintParam]
+                                ) [PrintStmt]
+                              ) [MatchedIfElse]
+                            ) [MatchedStmt]
+                          ) [Statements]
+                          MatchedStmt(
+                            PrintStmt(
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    DesignFact(
+                                      Designator(
+                                        NonArrayDesignator(
+                                         eol
+                                        ) [NonArrayDesignator]
+                                        NoSubdesignators(
+                                        ) [NoSubdesignators]
+                                      ) [Designator]
+                                    ) [DesignFact]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                              NoPrintParam(
+                              ) [NoPrintParam]
+                            ) [PrintStmt]
+                          ) [MatchedStmt]
+                        ) [Statements]
+                        MatchedStmt(
+                          DesignatorStmt(
+                            DesignAssignStmt(
+                              DesignAssign(
+                                Designator(
+                                  NonArrayDesignator(
+                                   i
+                                  ) [NonArrayDesignator]
+                                  NoSubdesignators(
+                                  ) [NoSubdesignators]
+                                ) [Designator]
+                                DesignatorAssign(
+                                  Assignop(
+                                  ) [Assignop]
+                                  PositiveExpr(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        Const(
+                                          NumConst(
+                                           0
+                                          ) [NumConst]
+                                        ) [Const]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [PositiveExpr]
+                                ) [DesignatorAssign]
+                              ) [DesignAssign]
+                            ) [DesignAssignStmt]
+                          ) [DesignatorStmt]
+                        ) [MatchedStmt]
+                      ) [Statements]
+                      MatchedStmt(
+                        MatchedIfElse(
+                          IfCond(
+                            SingleCondition(
+                              SingleCondTerm(
+                                BinaryCondFact(
+                                  PositiveExpr(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        DesignFact(
+                                          Designator(
+                                            NonArrayDesignator(
+                                             i
+                                            ) [NonArrayDesignator]
+                                            NoSubdesignators(
+                                            ) [NoSubdesignators]
+                                          ) [Designator]
+                                        ) [DesignFact]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [PositiveExpr]
+                                  RelopEqual(
+                                  ) [RelopEqual]
+                                  PositiveExpr(
+                                    SingleTerm(
+                                      SingleFactor(
+                                        Const(
+                                          NumConst(
+                                           3
+                                          ) [NumConst]
+                                        ) [Const]
+                                      ) [SingleFactor]
+                                    ) [SingleTerm]
+                                  ) [PositiveExpr]
+                                ) [BinaryCondFact]
+                              ) [SingleCondTerm]
+                            ) [SingleCondition]
+                          ) [IfCond]
+                          MatchedThen(
+                            PrintStmt(
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      NumConst(
+                                       4
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                              NoPrintParam(
+                              ) [NoPrintParam]
+                            ) [PrintStmt]
+                          ) [MatchedThen]
+                          PrintStmt(
+                            NegativeExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    NumConst(
+                                     4
+                                    ) [NumConst]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [NegativeExpr]
+                            NoPrintParam(
+                            ) [NoPrintParam]
+                          ) [PrintStmt]
+                        ) [MatchedIfElse]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      ReadStmt(
+                        Designator(
+                          ArrayDesignator(
+                            ArrayName(
+                             niz
+                            ) [ArrayName]
+                            PositiveExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    NumConst(
+                                     0
+                                    ) [NumConst]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [PositiveExpr]
+                          ) [ArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                      ) [ReadStmt]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    ReadStmt(
+                      Designator(
+                        ArrayDesignator(
+                          ArrayName(
+                           niz
+                          ) [ArrayName]
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                Const(
+                                  NumConst(
+                                   1
+                                  ) [NumConst]
+                                ) [Const]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                        ) [ArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [ReadStmt]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  ReadStmt(
+                    Designator(
+                      ArrayDesignator(
+                        ArrayName(
+                         niz
+                        ) [ArrayName]
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              Const(
+                                NumConst(
+                                 2
+                                ) [NumConst]
+                              ) [Const]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                      ) [ArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [ReadStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                PrintStmt(
+                  PositiveExpr(
+                    SingleTerm(
+                      SingleFactor(
+                        DesignFact(
+                          Designator(
+                            NonArrayDesignator(
+                             eol
+                            ) [NonArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                        ) [DesignFact]
+                      ) [SingleFactor]
+                    ) [SingleTerm]
+                  ) [PositiveExpr]
+                  NoPrintParam(
+                  ) [NoPrintParam]
+                ) [PrintStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              PrintStmt(
+                PositiveExpr(
+                  SingleTerm(
+                    SingleFactor(
+                      FuncCall(
+                        MethodCalled(
+                          Designator(
+                            NonArrayDesignator(
+                             sum
+                            ) [NonArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                        ) [MethodCalled]
+                        Actuals(
+                          ActualParams(
+                            ActualParam(
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    FuncCall(
+                                      MethodCalled(
+                                        Designator(
+                                          NonArrayDesignator(
+                                           sum
+                                          ) [NonArrayDesignator]
+                                          NoSubdesignators(
+                                          ) [NoSubdesignators]
+                                        ) [Designator]
+                                      ) [MethodCalled]
+                                      Actuals(
+                                        ActualParams(
+                                          ActualParam(
+                                            PositiveExpr(
+                                              SingleTerm(
+                                                SingleFactor(
+                                                  DesignFact(
+                                                    Designator(
+                                                      ArrayDesignator(
+                                                        ArrayName(
+                                                         niz
+                                                        ) [ArrayName]
+                                                        PositiveExpr(
+                                                          SingleTerm(
+                                                            SingleFactor(
+                                                              Const(
+                                                                NumConst(
+                                                                 0
+                                                                ) [NumConst]
+                                                              ) [Const]
+                                                            ) [SingleFactor]
+                                                          ) [SingleTerm]
+                                                        ) [PositiveExpr]
+                                                      ) [ArrayDesignator]
+                                                      NoSubdesignators(
+                                                      ) [NoSubdesignators]
+                                                    ) [Designator]
+                                                  ) [DesignFact]
+                                                ) [SingleFactor]
+                                              ) [SingleTerm]
+                                            ) [PositiveExpr]
+                                          ) [ActualParam]
+                                          PositiveExpr(
+                                            SingleTerm(
+                                              SingleFactor(
+                                                DesignFact(
+                                                  Designator(
+                                                    ArrayDesignator(
+                                                      ArrayName(
+                                                       niz
+                                                      ) [ArrayName]
+                                                      PositiveExpr(
+                                                        SingleTerm(
+                                                          SingleFactor(
+                                                            Const(
+                                                              NumConst(
+                                                               1
+                                                              ) [NumConst]
+                                                            ) [Const]
+                                                          ) [SingleFactor]
+                                                        ) [SingleTerm]
+                                                      ) [PositiveExpr]
+                                                    ) [ArrayDesignator]
+                                                    NoSubdesignators(
+                                                    ) [NoSubdesignators]
+                                                  ) [Designator]
+                                                ) [DesignFact]
+                                              ) [SingleFactor]
+                                            ) [SingleTerm]
+                                          ) [PositiveExpr]
+                                        ) [ActualParams]
+                                      ) [Actuals]
+                                    ) [FuncCall]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [ActualParam]
+                            PositiveExpr(
+                              SingleTerm(
+                                SingleFactor(
+                                  DesignFact(
+                                    Designator(
+                                      ArrayDesignator(
+                                        ArrayName(
+                                         niz
+                                        ) [ArrayName]
+                                        PositiveExpr(
+                                          SingleTerm(
+                                            SingleFactor(
+                                              Const(
+                                                NumConst(
+                                                 2
+                                                ) [NumConst]
+                                              ) [Const]
+                                            ) [SingleFactor]
+                                          ) [SingleTerm]
+                                        ) [PositiveExpr]
+                                      ) [ArrayDesignator]
+                                      NoSubdesignators(
+                                      ) [NoSubdesignators]
+                                    ) [Designator]
+                                  ) [DesignFact]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                            ) [PositiveExpr]
+                          ) [ActualParams]
+                        ) [Actuals]
+                      ) [FuncCall]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [PositiveExpr]
+                NoPrintParam(
+                ) [NoPrintParam]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            PrintStmt(
+              PositiveExpr(
+                SingleTerm(
+                  SingleFactor(
+                    DesignFact(
+                      Designator(
+                        NonArrayDesignator(
+                         eol
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [DesignFact]
+                  ) [SingleFactor]
+                ) [SingleTerm]
+              ) [PositiveExpr]
+              NoPrintParam(
+              ) [NoPrintParam]
+            ) [PrintStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            PositiveExpr(
+              SingleTerm(
+                SingleFactor(
+                  FuncCall(
+                    MethodCalled(
+                      Designator(
+                        NonArrayDesignator(
+                         inkrement
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [MethodCalled]
+                    Actuals(
+                      ActualParams(
+                        ActualParam(
+                          PositiveExpr(
+                            SingleTerm(
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    ArrayDesignator(
+                                      ArrayName(
+                                       niz
+                                      ) [ArrayName]
+                                      PositiveExpr(
+                                        SingleTerm(
+                                          SingleFactor(
+                                            Const(
+                                              NumConst(
+                                               2
+                                              ) [NumConst]
+                                            ) [Const]
+                                          ) [SingleFactor]
+                                        ) [SingleTerm]
+                                      ) [PositiveExpr]
+                                    ) [ArrayDesignator]
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [SingleTerm]
+                          ) [PositiveExpr]
+                        ) [ActualParam]
+                        PositiveExpr(
+                          SingleTerm(
+                            SingleFactor(
+                              DesignFact(
+                                Designator(
+                                  NonArrayDesignator(
+                                   IncrementType
+                                  ) [NonArrayDesignator]
+                                  Subdesignators(
+                                    NoSubdesignators(
+                                    ) [NoSubdesignators]
+                                    Subdesignator(
+                                      NonArrayDesignator(
+                                       DOUBLE_VALUE
+                                      ) [NonArrayDesignator]
+                                    ) [Subdesignator]
+                                  ) [Subdesignators]
+                                ) [Designator]
+                              ) [DesignFact]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                        ) [PositiveExpr]
+                      ) [ActualParams]
+                    ) [Actuals]
+                  ) [FuncCall]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PositiveExpr]
+            NoPrintParam(
+            ) [NoPrintParam]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:18:24,531 - ===================================
+INFO  17:18:24,541 - Pretraga na 13(z), nadjeno Var z: int, 0, 1 
+INFO  17:18:24,541 - Pretraga na 13(d), nadjeno Var d: int, 1, 1 
+INFO  17:18:24,541 - Pretraga na 18(type), nadjeno Var type: int, 1, 1 
+INFO  17:18:24,542 - Pretraga na 18(BY_ONE), nadjeno Con BY_ONE: int, 0, 1 
+INFO  17:18:24,542 - Pretraga na 18(pom), nadjeno Var pom: int, 2, 1 
+INFO  17:18:24,542 - Pretraga na 19(type), nadjeno Var type: int, 1, 1 
+INFO  17:18:24,542 - Pretraga na 19(DOUBLE_VALUE), nadjeno Con DOUBLE_VALUE: int, 1, 1 
+INFO  17:18:24,542 - Pretraga na 19(pom), nadjeno Var pom: int, 2, 1 
+INFO  17:18:24,542 - Pretraga na 19(a), nadjeno Var a: int, 0, 1 
+INFO  17:18:24,542 - Pretraga na 21(sum), nadjeno Meth sum: int, 0, 2 
+INFO  17:18:24,544 - Pretraga na 21(a), nadjeno Var a: int, 0, 1 
+INFO  17:18:24,544 - Pretraga na 21(pom), nadjeno Var pom: int, 2, 1 
+INFO  17:18:24,544 - Pretraga na 29(ibool), nadjeno Var ibool: bool, 1, 0 
+INFO  17:18:24,544 - Pretraga na 30(i), nadjeno Var i: int, 0, 0 
+INFO  17:18:24,544 - Pretraga na 32(ibool), nadjeno Var ibool: bool, 1, 0 
+INFO  17:18:24,545 - Pretraga na 33(i), nadjeno Var i: int, 0, 0 
+INFO  17:18:24,545 - Pretraga na 36(niz), nadjeno Var niz: Arr of int, 2, 0 
+INFO  17:18:24,545 - Pretraga na 36(sum), nadjeno Meth sum: int, 0, 2 
+INFO  17:18:24,545 - Pretraga na 36(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,545 - Pretraga na 36(element niza niz), nadjeno element niza niz: int, -1, -1 
+ERROR 17:18:24,546 - Greska na 36: broj elemenata u inicijalizatorskoj listi mora odgovarati duzini niza! 
+INFO  17:18:24,546 - Pretraga na 37(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,546 - Pretraga na 37(ord), nadjeno Meth ord: int, 0, 1 
+INFO  17:18:24,546 - Pretraga na 38(ord), nadjeno Meth ord: int, 0, 1 
+INFO  17:18:24,546 - Pretraga na 40(eol), nadjeno Con eol: char, 10, 0 
+INFO  17:18:24,546 - Pretraga na 41(i), nadjeno Var i: int, 0, 0 
+INFO  17:18:24,546 - Pretraga na 44(i), nadjeno Var i: int, 0, 0 
+INFO  17:18:24,546 - Pretraga na 47(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,546 - Pretraga na 48(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 49(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 50(eol), nadjeno Con eol: char, 10, 0 
+INFO  17:18:24,547 - Pretraga na 52(sum), nadjeno Meth sum: int, 0, 2 
+INFO  17:18:24,547 - Pretraga na 52(sum), nadjeno Meth sum: int, 0, 2 
+INFO  17:18:24,547 - Pretraga na 52(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 52(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 52(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 54(eol), nadjeno Con eol: char, 10, 0 
+INFO  17:18:24,547 - Pretraga na 55(inkrement), nadjeno Meth inkrement: int, 0, 2 
+INFO  17:18:24,547 - Pretraga na 55(element niza niz), nadjeno element niza niz: int, -1, -1 
+INFO  17:18:24,547 - Pretraga na 55(DOUBLE_VALUE), nadjeno Con DOUBLE_VALUE: int, 1, 1 
+INFO  17:18:24,547 - ==============SINTAKSNA ANALIZA===============
+INFO  17:18:24,547 - 0	 classes 
+INFO  17:18:24,547 - 3	 methods in the program 
+INFO  17:18:24,547 - 3	 global variables 
+INFO  17:18:24,547 - 0	 global constants 
+INFO  17:18:24,548 - 1	 global arrays 
+INFO  17:18:24,548 - 0	 local variables in main 
+INFO  17:18:24,548 - 25	 statements in main 
+INFO  17:18:24,548 - 6	 function calls in main 
+ERROR 17:18:24,548 - Parsiranje NIJE uspesno zavrseno!

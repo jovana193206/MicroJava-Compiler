@@ -1,0 +1,337 @@
+INFO  03:27:42,311 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\enumTest.mj
+INFO  03:27:42,422 - #2 program
+INFO  03:27:42,423 - #44 P
+INFO  03:27:42,423 - #6 enum
+INFO  03:27:42,425 - #44 DaniUNedelji
+INFO  03:27:42,426 - #37 {
+INFO  03:27:42,427 - #44 PON
+INFO  03:27:42,427 - #27 =
+INFO  03:27:42,427 - #45 1
+INFO  03:27:42,429 - #31 ,
+INFO  03:27:42,429 - #44 UTO
+INFO  03:27:42,430 - #31 ,
+INFO  03:27:42,430 - #44 SRE
+INFO  03:27:42,430 - #31 ,
+INFO  03:27:42,430 - #44 CET
+INFO  03:27:42,430 - #31 ,
+INFO  03:27:42,430 - #44 PET
+INFO  03:27:42,431 - #31 ,
+INFO  03:27:42,431 - #44 SUB
+INFO  03:27:42,431 - #27 =
+INFO  03:27:42,431 - #45 6
+INFO  03:27:42,431 - #31 ,
+INFO  03:27:42,454 - #44 NED
+INFO  03:27:42,454 - #38 }
+INFO  03:27:42,455 - #44 int
+INFO  03:27:42,456 - #44 d
+INFO  03:27:42,457 - #30 ;
+INFO  03:27:42,458 - #37 {
+INFO  03:27:42,458 - #12 void
+INFO  03:27:42,459 - #44 main
+INFO  03:27:42,459 - #33 (
+INFO  03:27:42,460 - #34 )
+INFO  03:27:42,461 - #44 DaniUNedelji
+INFO  03:27:42,462 - #44 dan1
+INFO  03:27:42,462 - #31 ,
+INFO  03:27:42,462 - #44 dan2
+INFO  03:27:42,462 - #30 ;
+INFO  03:27:42,462 - #37 {
+INFO  03:27:42,463 - #44 dan1
+INFO  03:27:42,464 - #27 =
+INFO  03:27:42,466 - #44 DaniUNedelji
+INFO  03:27:42,466 - #32 .
+INFO  03:27:42,466 - #44 UTO
+INFO  03:27:42,466 - #30 ;
+INFO  03:27:42,469 - #44 dan2
+INFO  03:27:42,470 - #27 =
+INFO  03:27:42,470 - #44 dan1
+INFO  03:27:42,470 - #30 ;
+INFO  03:27:42,470 - #44 d
+INFO  03:27:42,470 - #27 =
+INFO  03:27:42,470 - #45 10
+INFO  03:27:42,471 - #39 +
+INFO  03:27:42,471 - #44 DaniUNedelji
+INFO  03:27:42,473 - #32 .
+INFO  03:27:42,474 - #44 SUB
+INFO  03:27:42,474 - #30 ;
+INFO  03:27:42,475 - #9 print
+INFO  03:27:42,475 - #33 (
+INFO  03:27:42,475 - #44 d
+INFO  03:27:42,475 - #34 )
+INFO  03:27:42,478 - #30 ;
+INFO  03:27:42,478 - #38 }
+INFO  03:27:42,478 - #38 }
+INFO  03:27:42,492 - ===============SINTAKSNO STABLO===============
+INFO  03:27:42,495 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      EnumDeclaration(
+        EnumDecl(
+          EnumName(
+           DaniUNedelji
+          ) [EnumName]
+          EnumElems(
+            EnumElems(
+              EnumElems(
+                EnumElems(
+                  EnumElems(
+                    EnumElems(
+                      SingleEnumElem(
+                        InitEnumElem(
+                         PON
+                          Assignop(
+                          ) [Assignop]
+                         1
+                        ) [InitEnumElem]
+                      ) [SingleEnumElem]
+                      NoInitEnumElem(
+                       UTO
+                      ) [NoInitEnumElem]
+                    ) [EnumElems]
+                    NoInitEnumElem(
+                     SRE
+                    ) [NoInitEnumElem]
+                  ) [EnumElems]
+                  NoInitEnumElem(
+                   CET
+                  ) [NoInitEnumElem]
+                ) [EnumElems]
+                NoInitEnumElem(
+                 PET
+                ) [NoInitEnumElem]
+              ) [EnumElems]
+              InitEnumElem(
+               SUB
+                Assignop(
+                ) [Assignop]
+               6
+              ) [InitEnumElem]
+            ) [EnumElems]
+            NoInitEnumElem(
+             NED
+            ) [NoInitEnumElem]
+          ) [EnumElems]
+        ) [EnumDecl]
+      ) [EnumDeclaration]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVarIdentList(
+          NonArrayVarIdent(
+           d
+          ) [NonArrayVarIdent]
+        ) [SingleGlobalVarIdentList]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           DaniUNedelji
+          ) [Type]
+          VarIdents(
+            SingleVarIdent(
+              NonArrayVarIdent(
+               dan1
+              ) [NonArrayVarIdent]
+            ) [SingleVarIdent]
+            NonArrayVarIdent(
+             dan2
+            ) [NonArrayVarIdent]
+          ) [VarIdents]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignAssign(
+                    Designator(
+                      NonArrayDesignator(
+                       dan1
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                    DesignatorAssign(
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            DesignFact(
+                              Designator(
+                                NonArrayDesignator(
+                                 DaniUNedelji
+                                ) [NonArrayDesignator]
+                                Subdesignators(
+                                  NoSubdesignators(
+                                  ) [NoSubdesignators]
+                                  Subdesignator(
+                                    NonArrayDesignator(
+                                     UTO
+                                    ) [NonArrayDesignator]
+                                  ) [Subdesignator]
+                                ) [Subdesignators]
+                              ) [Designator]
+                            ) [DesignFact]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                    ) [DesignatorAssign]
+                  ) [DesignAssign]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesignatorStmt(
+                DesignAssign(
+                  Designator(
+                    NonArrayDesignator(
+                     dan2
+                    ) [NonArrayDesignator]
+                    NoSubdesignators(
+                    ) [NoSubdesignators]
+                  ) [Designator]
+                  DesignatorAssign(
+                    Assignop(
+                    ) [Assignop]
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          DesignFact(
+                            Designator(
+                              NonArrayDesignator(
+                               dan1
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                          ) [DesignFact]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                  ) [DesignatorAssign]
+                ) [DesignAssign]
+              ) [DesignatorStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            DesignatorStmt(
+              DesignAssign(
+                Designator(
+                  NonArrayDesignator(
+                   d
+                  ) [NonArrayDesignator]
+                  NoSubdesignators(
+                  ) [NoSubdesignators]
+                ) [Designator]
+                DesignatorAssign(
+                  Assignop(
+                  ) [Assignop]
+                  PositiveExpr(
+                    Terms(
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            NumConst(
+                             10
+                            ) [NumConst]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      SingleFactor(
+                        DesignFact(
+                          Designator(
+                            NonArrayDesignator(
+                             DaniUNedelji
+                            ) [NonArrayDesignator]
+                            Subdesignators(
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                              Subdesignator(
+                                NonArrayDesignator(
+                                 SUB
+                                ) [NonArrayDesignator]
+                              ) [Subdesignator]
+                            ) [Subdesignators]
+                          ) [Designator]
+                        ) [DesignFact]
+                      ) [SingleFactor]
+                    ) [Terms]
+                  ) [PositiveExpr]
+                ) [DesignatorAssign]
+              ) [DesignAssign]
+            ) [DesignatorStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          PrintStmt(
+            PositiveExpr(
+              SingleTerm(
+                SingleFactor(
+                  DesignFact(
+                    Designator(
+                      NonArrayDesignator(
+                       d
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [DesignFact]
+                ) [SingleFactor]
+              ) [SingleTerm]
+            ) [PositiveExpr]
+            NoPrintParam(
+            ) [NoPrintParam]
+          ) [PrintStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  03:27:42,496 - ==============SEMANTICKA OBRADA===============
+INFO  03:27:42,504 - Pretraga na 10(dan1), nadjeno Var dan1: int, 0, 1 
+INFO  03:27:42,504 - Pretraga na 10(UTO), nadjeno Con UTO: int, 0, 1 
+INFO  03:27:42,504 - Pretraga na 11(dan2), nadjeno Var dan2: int, 1, 1 
+INFO  03:27:42,504 - Pretraga na 11(dan1), nadjeno Var dan1: int, 0, 1 
+INFO  03:27:42,505 - Pretraga na 12(d), nadjeno Var d: int, 0, 0 
+INFO  03:27:42,505 - Pretraga na 12(SUB), nadjeno Con SUB: int, 6, 1 
+INFO  03:27:42,505 - Pretraga na 13(d), nadjeno Var d: int, 0, 0 
+INFO  03:27:42,505 - ==============SINTAKSNA ANALIZA===============
+INFO  03:27:42,505 - 0	 classes 
+INFO  03:27:42,505 - 1	 methods in the program 
+INFO  03:27:42,505 - 1	 global variables 
+INFO  03:27:42,505 - 0	 global constants 
+INFO  03:27:42,505 - 0	 global arrays 
+INFO  03:27:42,505 - 2	 local variables in main 
+INFO  03:27:42,505 - 4	 statements in main 
+INFO  03:27:42,505 - 0	 function calls in main 
+INFO  03:27:42,522 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,30 @@
+INFO  23:16:18,223 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  23:16:18,323 - #2 program
+INFO  23:16:18,323 - #44 P
+INFO  23:16:18,323 - #7 const
+INFO  23:16:18,323 - #44 int
+INFO  23:16:18,323 - #44 k
+INFO  23:16:18,323 - #35 ;
+ERROR 23:16:18,323 - 
+Sintaksna greska na liniji 2
+INFO  23:16:18,323 - #7 const
+INFO  23:16:18,323 - #44 int
+INFO  23:16:18,323 - #44 size
+DEBUG 23:16:18,323 - Uspesan oporavak od pogresne deklaracije konstante.
+INFO  23:16:18,323 - #32 =
+INFO  23:16:18,323 - #45 10
+INFO  23:16:18,323 - #35 ;
+INFO  23:16:18,339 - #42 {
+INFO  23:16:18,339 - #12 void
+INFO  23:16:18,339 - #44 main
+INFO  23:16:18,339 - #38 (
+INFO  23:16:18,339 - #39 )
+INFO  23:16:18,339 - #44 int
+INFO  23:16:18,339 - #44 i
+INFO  23:16:18,339 - #40 [
+INFO  23:16:18,339 - #35 ;
+ERROR 23:16:18,339 - 
+Sintaksna greska na liniji 6
+INFO  23:16:18,339 - #42 {
+INFO  23:16:18,339 - #44 i
+INFO  23:16:18,339 - #32 =

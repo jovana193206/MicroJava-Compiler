@@ -1,0 +1,319 @@
+INFO  22:27:24,643 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  22:27:24,757 - #2 program
+INFO  22:27:24,757 - #44 P
+INFO  22:27:24,757 - #7 const
+INFO  22:27:24,759 - #44 int
+INFO  22:27:24,759 - #44 size
+INFO  22:27:24,761 - #32 =
+INFO  22:27:24,761 - #45 10
+INFO  22:27:24,762 - #35 ;
+INFO  22:27:24,763 - #44 int
+INFO  22:27:24,764 - #44 a
+INFO  22:27:24,764 - #36 ,
+INFO  22:27:24,765 - #37 .
+ERROR 22:27:24,765 - 
+Sintaksna greska na liniji 3
+INFO  22:27:24,765 - #44 b
+INFO  22:27:24,765 - #36 ,
+INFO  22:27:24,765 - #44 c
+INFO  22:27:24,767 - #35 ;
+INFO  22:27:24,767 - #42 {
+DEBUG 22:27:24,767 - Uspesan oporavak od pogresne deklaracije globalne promenljive.
+INFO  22:27:24,792 - #12 void
+INFO  22:27:24,793 - #44 main
+INFO  22:27:24,794 - #38 (
+INFO  22:27:24,795 - #39 )
+INFO  22:27:24,796 - #44 int
+INFO  22:27:24,796 - #44 i
+INFO  22:27:24,796 - #35 ;
+INFO  22:27:24,797 - #42 {
+INFO  22:27:24,798 - #44 i
+INFO  22:27:24,798 - #33 ++
+INFO  22:27:24,801 - #35 ;
+INFO  22:27:24,801 - #44 i
+INFO  22:27:24,802 - #34 --
+INFO  22:27:24,802 - #35 ;
+INFO  22:27:24,802 - #44 i
+INFO  22:27:24,802 - #32 =
+INFO  22:27:24,802 - #44 i
+INFO  22:27:24,803 - #19 +
+INFO  22:27:24,803 - #45 2
+INFO  22:27:24,805 - #21 *
+INFO  22:27:24,805 - #21 *
+ERROR 22:27:24,805 - 
+Sintaksna greska na liniji 10
+INFO  22:27:24,805 - #20 -
+INFO  22:27:24,805 - #35 ;
+INFO  22:27:24,805 - #44 a
+INFO  22:27:24,806 - #33 ++
+INFO  22:27:24,806 - #35 ;
+INFO  22:27:24,806 - #44 b
+INFO  22:27:24,807 - #34 --
+INFO  22:27:24,807 - #35 ;
+INFO  22:27:24,807 - #16 if
+INFO  22:27:24,807 - #38 (
+INFO  22:27:24,808 - #44 i
+INFO  22:27:24,808 - #28 <
+INFO  22:27:24,809 - #45 3
+INFO  22:27:24,814 - #39 )
+INFO  22:27:24,815 - #44 i
+INFO  22:27:24,815 - #33 ++
+INFO  22:27:24,815 - #35 ;
+INFO  22:27:24,815 - #10 read
+INFO  22:27:24,816 - #38 (
+INFO  22:27:24,818 - #44 i
+INFO  22:27:24,818 - #39 )
+INFO  22:27:24,818 - #35 ;
+INFO  22:27:24,819 - #44 i
+INFO  22:27:24,819 - #32 =
+INFO  22:27:24,819 - #37 .
+ERROR 22:27:24,819 - 
+Sintaksna greska na liniji 15
+INFO  22:27:24,820 - #45 6
+INFO  22:27:24,820 - #35 ;
+INFO  22:27:24,820 - #43 }
+INFO  22:27:24,820 - #43 }
+DEBUG 22:27:24,821 - Uspesan oporavak od greske pri dodeli vrednosti.
+INFO  22:27:24,828 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      ConstDeclaration(
+        ConstDecl(
+          ConstType(
+            Type(
+             int
+            ) [Type]
+          ) [ConstType]
+          SingleConstInit(
+            ConstInit(
+             size
+              Assignop(
+              ) [Assignop]
+              NumConst(
+               10
+              ) [NumConst]
+            ) [ConstInit]
+          ) [SingleConstInit]
+        ) [ConstDecl]
+      ) [ConstDeclaration]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarIdents(
+          GlobalVarIdents(
+            SingleGlobalVarIdentList(
+              NonArrayVarIdent(
+               a
+              ) [NonArrayVarIdent]
+            ) [SingleGlobalVarIdentList]
+            GlVarIdentErr(
+            ) [GlVarIdentErr]
+          ) [GlobalVarIdents]
+          GlVarIdentOk(
+            NonArrayVarIdent(
+             c
+            ) [NonArrayVarIdent]
+          ) [GlVarIdentOk]
+        ) [GlobalVarIdents]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarIdent(
+            NonArrayVarIdent(
+             i
+            ) [NonArrayVarIdent]
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      NoStmt(
+                      ) [NoStmt]
+                      MatchedStmt(
+                        DesignatorStmt(
+                          DesignInc(
+                            Designator(
+                              NonArrayDesignator(
+                               i
+                              ) [NonArrayDesignator]
+                              NoSubdesignators(
+                              ) [NoSubdesignators]
+                            ) [Designator]
+                          ) [DesignInc]
+                        ) [DesignatorStmt]
+                      ) [MatchedStmt]
+                    ) [Statements]
+                    MatchedStmt(
+                      DesignatorStmt(
+                        DesignDec(
+                          Designator(
+                            NonArrayDesignator(
+                             i
+                            ) [NonArrayDesignator]
+                            NoSubdesignators(
+                            ) [NoSubdesignators]
+                          ) [Designator]
+                        ) [DesignDec]
+                      ) [DesignatorStmt]
+                    ) [MatchedStmt]
+                  ) [Statements]
+                  MatchedStmt(
+                    DesignatorStmt(
+                      DesignAssignErr(
+                        Designator(
+                          NonArrayDesignator(
+                           i
+                          ) [NonArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                      ) [DesignAssignErr]
+                    ) [DesignatorStmt]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  DesignatorStmt(
+                    DesignInc(
+                      Designator(
+                        NonArrayDesignator(
+                         a
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [DesignInc]
+                  ) [DesignatorStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignDec(
+                    Designator(
+                      NonArrayDesignator(
+                       b
+                      ) [NonArrayDesignator]
+                      NoSubdesignators(
+                      ) [NoSubdesignators]
+                    ) [Designator]
+                  ) [DesignDec]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            UnmatchedStmt(
+              UnmatchedIf(
+                SingleCondition(
+                  SingleCondTerm(
+                    BinaryCondFact(
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            DesignFact(
+                              Designator(
+                                NonArrayDesignator(
+                                 i
+                                ) [NonArrayDesignator]
+                                NoSubdesignators(
+                                ) [NoSubdesignators]
+                              ) [Designator]
+                            ) [DesignFact]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                      RelopLess(
+                      ) [RelopLess]
+                      PositiveExpr(
+                        SingleTerm(
+                          SingleFactor(
+                            Const(
+                              NumConst(
+                               3
+                              ) [NumConst]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [SingleTerm]
+                      ) [PositiveExpr]
+                    ) [BinaryCondFact]
+                  ) [SingleCondTerm]
+                ) [SingleCondition]
+                MatchedStmt(
+                  DesignatorStmt(
+                    DesignInc(
+                      Designator(
+                        NonArrayDesignator(
+                         i
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [DesignInc]
+                  ) [DesignatorStmt]
+                ) [MatchedStmt]
+              ) [UnmatchedIf]
+            ) [UnmatchedStmt]
+          ) [Statements]
+          MatchedStmt(
+            ReadStmt(
+              Designator(
+                NonArrayDesignator(
+                 i
+                ) [NonArrayDesignator]
+                NoSubdesignators(
+                ) [NoSubdesignators]
+              ) [Designator]
+            ) [ReadStmt]
+          ) [MatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          DesignatorStmt(
+            DesignAssign(
+              Designator(
+                NonArrayDesignator(
+                 i
+                ) [NonArrayDesignator]
+                NoSubdesignators(
+                ) [NoSubdesignators]
+              ) [Designator]
+              DesignAssignErrBeg(
+              ) [DesignAssignErrBeg]
+            ) [DesignAssign]
+          ) [DesignatorStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:27:24,829 - ===================================
+INFO  22:27:24,834 -  Print count calls = 0
+INFO  22:27:24,834 -  Deklarisanih promenljivih ima = 1

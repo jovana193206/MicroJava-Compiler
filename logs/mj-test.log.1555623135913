@@ -1,0 +1,58 @@
+INFO  23:29:55,708 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  23:29:55,833 - #2 program
+INFO  23:29:55,833 - #44 P
+INFO  23:29:55,833 - #7 const
+INFO  23:29:55,833 - #44 int
+INFO  23:29:55,833 - #44 size
+INFO  23:29:55,833 - #32 =
+INFO  23:29:55,833 - #45 10
+INFO  23:29:55,833 - #35 ;
+INFO  23:29:55,833 - #42 {
+INFO  23:29:55,833 - #12 void
+INFO  23:29:55,833 - #44 main
+INFO  23:29:55,833 - #38 (
+INFO  23:29:55,833 - #39 )
+INFO  23:29:55,833 - #44 int
+INFO  23:29:55,833 - #44 i
+INFO  23:29:55,833 - #40 [
+INFO  23:29:55,833 - #35 ;
+ERROR 23:29:55,833 - 
+Sintaksna greska na liniji 5
+INFO  23:29:55,833 - #42 {
+INFO  23:29:55,833 - #44 i
+INFO  23:29:55,849 - #33 ++
+DEBUG 23:29:55,849 - Uspesan oporavak od pogresne deklaracije promenljive.
+INFO  23:29:55,864 - #35 ;
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #34 --
+INFO  23:29:55,864 - #35 ;
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #32 =
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #19 +
+INFO  23:29:55,864 - #45 2
+INFO  23:29:55,864 - #35 ;
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #32 =
+INFO  23:29:55,864 - #44 size
+INFO  23:29:55,864 - #19 +
+INFO  23:29:55,864 - #35 ;
+ERROR 23:29:55,864 - 
+Sintaksna greska na liniji 10
+INFO  23:29:55,864 - #16 if
+INFO  23:29:55,864 - #38 (
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #28 <
+INFO  23:29:55,864 - #45 3
+INFO  23:29:55,864 - #39 )
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #33 ++
+INFO  23:29:55,864 - #35 ;
+INFO  23:29:55,864 - #10 read
+INFO  23:29:55,864 - #38 (
+INFO  23:29:55,864 - #44 i
+INFO  23:29:55,864 - #39 )
+INFO  23:29:55,864 - #35 ;
+INFO  23:29:55,864 - #43 }
+INFO  23:29:55,864 - #43 }
+ERROR 23:29:55,864 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 14

@@ -1,0 +1,18 @@
+program P
+	const int size = 10;
+	{
+		void main()
+			int i;
+			{
+				i = 3;
+				if(i < size)
+				{
+					if(size > 5) i++;
+				}
+				else i--;
+				
+				if(i < size)
+					if(size > 5) i++;
+					else i--;
+			}
+	}

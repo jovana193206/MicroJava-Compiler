@@ -1,0 +1,14 @@
+INFO  00:57:56,642 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  00:57:56,736 - #2 program
+INFO  00:57:56,736 - #44 P
+INFO  00:57:56,736 - #7 const
+INFO  00:57:56,736 - #44 int
+INFO  00:57:56,736 - #44 size
+INFO  00:57:56,736 - #32 =
+INFO  00:57:56,736 - #45 10
+INFO  00:57:56,736 - #35 ;
+INFO  00:57:56,736 - #44 int
+INFO  00:57:56,736 - #37 .
+ERROR 00:57:56,736 - 
+Sintaksna greska na liniji 3
+ERROR 00:57:56,736 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 3

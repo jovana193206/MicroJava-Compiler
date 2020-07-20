@@ -1,0 +1,76 @@
+INFO  01:02:49,754 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  01:02:49,879 - #2 program
+INFO  01:02:49,879 - #44 P
+INFO  01:02:49,879 - #7 const
+INFO  01:02:49,894 - #44 int
+INFO  01:02:49,894 - #44 size
+INFO  01:02:49,894 - #32 =
+INFO  01:02:49,894 - #45 10
+INFO  01:02:49,894 - #35 ;
+INFO  01:02:49,894 - #44 int
+INFO  01:02:49,894 - #44 a
+INFO  01:02:49,894 - #36 ,
+INFO  01:02:49,894 - #37 .
+ERROR 01:02:49,894 - 
+Sintaksna greska na liniji 3
+INFO  01:02:49,894 - #44 b
+INFO  01:02:49,894 - #36 ,
+INFO  01:02:49,894 - #44 c
+INFO  01:02:49,894 - #35 ;
+INFO  01:02:49,894 - #42 {
+DEBUG 01:02:49,894 - Uspesan oporavak od pogresne deklaracije globalne promenljive.
+INFO  01:02:49,910 - #12 void
+INFO  01:02:49,910 - #44 main
+INFO  01:02:49,926 - #38 (
+INFO  01:02:49,926 - #39 )
+INFO  01:02:49,926 - #44 int
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #42 {
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #33 ++
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #34 --
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #32 =
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #19 +
+INFO  01:02:49,926 - #45 2
+INFO  01:02:49,926 - #21 *
+INFO  01:02:49,926 - #21 *
+ERROR 01:02:49,926 - 
+Sintaksna greska na liniji 10
+INFO  01:02:49,926 - #20 -
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #44 a
+INFO  01:02:49,926 - #33 ++
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #44 b
+INFO  01:02:49,926 - #34 --
+INFO  01:02:49,926 - #35 ;
+INFO  01:02:49,926 - #16 if
+INFO  01:02:49,926 - #38 (
+INFO  01:02:49,926 - #44 i
+INFO  01:02:49,926 - #28 <
+INFO  01:02:49,926 - #45 3
+INFO  01:02:49,926 - #39 )
+INFO  01:02:49,941 - #44 i
+INFO  01:02:49,941 - #33 ++
+INFO  01:02:49,941 - #35 ;
+INFO  01:02:49,941 - #10 read
+INFO  01:02:49,941 - #38 (
+INFO  01:02:49,941 - #44 i
+INFO  01:02:49,941 - #39 )
+INFO  01:02:49,941 - #35 ;
+INFO  01:02:49,941 - #44 i
+INFO  01:02:49,941 - #32 =
+INFO  01:02:49,941 - #37 .
+ERROR 01:02:49,941 - 
+Sintaksna greska na liniji 15
+INFO  01:02:49,941 - #45 6
+INFO  01:02:49,941 - #35 ;
+INFO  01:02:49,941 - #43 }
+INFO  01:02:49,941 - #43 }
+ERROR 01:02:49,941 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 17

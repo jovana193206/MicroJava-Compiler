@@ -1,0 +1,36 @@
+INFO  00:11:56,215 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  00:11:56,293 - #2 program
+INFO  00:11:56,308 - #44 P
+INFO  00:11:56,308 - #7 const
+INFO  00:11:56,308 - #44 int
+INFO  00:11:56,308 - #44 size
+INFO  00:11:56,308 - #32 =
+INFO  00:11:56,308 - #45 10
+INFO  00:11:56,308 - #35 ;
+INFO  00:11:56,308 - #42 {
+INFO  00:11:56,308 - #12 void
+INFO  00:11:56,308 - #44 main
+INFO  00:11:56,308 - #38 (
+INFO  00:11:56,308 - #39 )
+INFO  00:11:56,308 - #44 int
+INFO  00:11:56,308 - #44 i
+INFO  00:11:56,308 - #35 ;
+INFO  00:11:56,308 - #42 {
+INFO  00:11:56,308 - #44 i
+INFO  00:11:56,308 - #33 ++
+INFO  00:11:56,308 - #35 ;
+INFO  00:11:56,308 - #44 i
+INFO  00:11:56,355 - #34 --
+INFO  00:11:56,355 - #35 ;
+INFO  00:11:56,355 - #44 i
+INFO  00:11:56,371 - #32 =
+INFO  00:11:56,371 - #44 i
+INFO  00:11:56,371 - #19 +
+INFO  00:11:56,371 - #45 2
+INFO  00:11:56,371 - #35 ;
+INFO  00:11:56,371 - #44 i
+INFO  00:11:56,371 - #32 =
+INFO  00:11:56,371 - #21 *
+ERROR 00:11:56,371 - 
+Sintaksna greska na liniji 10
+ERROR 00:11:56,371 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 10

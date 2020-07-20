@@ -1,0 +1,294 @@
+INFO  11:24:54,492 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\initListTest.mj
+INFO  11:24:54,726 - #2 program
+INFO  11:24:54,726 - #44 test302
+INFO  11:24:54,726 - #6 enum
+INFO  11:24:54,726 - #44 IncrementType
+INFO  11:24:54,726 - #37 {
+INFO  11:24:54,726 - #44 BY_ONE
+INFO  11:24:54,726 - #31 ,
+INFO  11:24:54,726 - #44 DOUBLE_VALUE
+INFO  11:24:54,726 - #38 }
+INFO  11:24:54,726 - #44 int
+INFO  11:24:54,726 - #44 niz
+INFO  11:24:54,726 - #35 [
+INFO  11:24:54,726 - #36 ]
+INFO  11:24:54,726 - #30 ;
+INFO  11:24:54,726 - #37 {
+INFO  11:24:54,726 - #44 int
+INFO  11:24:54,726 - #44 sum
+INFO  11:24:54,726 - #33 (
+INFO  11:24:54,726 - #44 int
+INFO  11:24:54,726 - #44 z
+INFO  11:24:54,758 - #31 ,
+INFO  11:24:54,758 - #44 int
+INFO  11:24:54,758 - #44 d
+INFO  11:24:54,758 - #34 )
+INFO  11:24:54,758 - #37 {
+INFO  11:24:54,758 - #11 return
+INFO  11:24:54,758 - #44 z
+INFO  11:24:54,758 - #39 +
+INFO  11:24:54,773 - #44 d
+INFO  11:24:54,773 - #30 ;
+INFO  11:24:54,773 - #38 }
+INFO  11:24:54,773 - #12 void
+INFO  11:24:54,773 - #44 main
+INFO  11:24:54,773 - #33 (
+INFO  11:24:54,773 - #34 )
+INFO  11:24:54,773 - #37 {
+INFO  11:24:54,773 - #44 niz
+INFO  11:24:54,773 - #27 =
+INFO  11:24:54,773 - #8 new
+INFO  11:24:54,773 - #44 int
+INFO  11:24:54,773 - #35 [
+INFO  11:24:54,773 - #45 2
+INFO  11:24:54,773 - #39 +
+INFO  11:24:54,773 - #44 IncrementType
+INFO  11:24:54,773 - #32 .
+INFO  11:24:54,773 - #44 BY_ONE
+INFO  11:24:54,773 - #36 ]
+INFO  11:24:54,773 - #37 {
+INFO  11:24:54,773 - #45 1
+INFO  11:24:54,773 - #31 ,
+INFO  11:24:54,773 - #45 2
+INFO  11:24:54,773 - #38 }
+INFO  11:24:54,773 - #30 ;
+INFO  11:24:54,773 - #38 }
+INFO  11:24:54,773 - #38 }
+INFO  11:24:54,805 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  Declarations(
+    Declarations(
+      NoVarDecl(
+      ) [NoVarDecl]
+      EnumDeclaration(
+        EnumDecl(
+          EnumName(
+           IncrementType
+          ) [EnumName]
+          EnumElems(
+            SingleEnumElem(
+              NoInitEnumElem(
+               BY_ONE
+              ) [NoInitEnumElem]
+            ) [SingleEnumElem]
+            NoInitEnumElem(
+             DOUBLE_VALUE
+            ) [NoInitEnumElem]
+          ) [EnumElems]
+        ) [EnumDecl]
+      ) [EnumDeclaration]
+    ) [Declarations]
+    GlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        SingleGlobalVarIdentList(
+          ArrayVarIdent(
+           niz
+          ) [ArrayVarIdent]
+        ) [SingleGlobalVarIdentList]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVar]
+  ) [Declarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDecl(
+        MethodTypeName(
+          MethodReturnTypeT(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeT]
+         sum
+        ) [MethodTypeName]
+        FormParams(
+          FormalParamDecls(
+            SingleFormalParamDecl(
+              FormalParam(
+                Type(
+                 int
+                ) [Type]
+                NonArrayVarIdent(
+                 z
+                ) [NonArrayVarIdent]
+              ) [FormalParam]
+            ) [SingleFormalParamDecl]
+            FormalParam(
+              Type(
+               int
+              ) [Type]
+              NonArrayVarIdent(
+               d
+              ) [NonArrayVarIdent]
+            ) [FormalParam]
+          ) [FormalParamDecls]
+        ) [FormParams]
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          MatchedStmt(
+            ReturnExpr(
+              PositiveExpr(
+                Terms(
+                  SingleTerm(
+                    SingleFactor(
+                      DesignFact(
+                        Designator(
+                          NonArrayDesignator(
+                           z
+                          ) [NonArrayDesignator]
+                          NoSubdesignators(
+                          ) [NoSubdesignators]
+                        ) [Designator]
+                      ) [DesignFact]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  SingleFactor(
+                    DesignFact(
+                      Designator(
+                        NonArrayDesignator(
+                         d
+                        ) [NonArrayDesignator]
+                        NoSubdesignators(
+                        ) [NoSubdesignators]
+                      ) [Designator]
+                    ) [DesignFact]
+                  ) [SingleFactor]
+                ) [Terms]
+              ) [PositiveExpr]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [Statements]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodTypeName(
+        MethodReturnVoid(
+        ) [MethodReturnVoid]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        MatchedStmt(
+          DesignatorStmt(
+            DesignAssign(
+              Designator(
+                NonArrayDesignator(
+                 niz
+                ) [NonArrayDesignator]
+                NoSubdesignators(
+                ) [NoSubdesignators]
+              ) [Designator]
+              DesignatorAssign(
+                Assignop(
+                ) [Assignop]
+                PositiveExpr(
+                  SingleTerm(
+                    SingleFactor(
+                      NewFactArray(
+                        NewArray(
+                          Type(
+                           int
+                          ) [Type]
+                          PositiveExpr(
+                            Terms(
+                              SingleTerm(
+                                SingleFactor(
+                                  Const(
+                                    NumConst(
+                                     2
+                                    ) [NumConst]
+                                  ) [Const]
+                                ) [SingleFactor]
+                              ) [SingleTerm]
+                              AddopPlus(
+                              ) [AddopPlus]
+                              SingleFactor(
+                                DesignFact(
+                                  Designator(
+                                    NonArrayDesignator(
+                                     IncrementType
+                                    ) [NonArrayDesignator]
+                                    Subdesignators(
+                                      NoSubdesignators(
+                                      ) [NoSubdesignators]
+                                      Subdesignator(
+                                        NonArrayDesignator(
+                                         BY_ONE
+                                        ) [NonArrayDesignator]
+                                      ) [Subdesignator]
+                                    ) [Subdesignators]
+                                  ) [Designator]
+                                ) [DesignFact]
+                              ) [SingleFactor]
+                            ) [Terms]
+                          ) [PositiveExpr]
+                        ) [NewArray]
+                        InitLst(
+                          InitListStart(
+                          ) [InitListStart]
+                          ExprLst(
+                            SingleExprLst(
+                              InitElem(
+                                PositiveExpr(
+                                  SingleTerm(
+                                    SingleFactor(
+                                      Const(
+                                        NumConst(
+                                         1
+                                        ) [NumConst]
+                                      ) [Const]
+                                    ) [SingleFactor]
+                                  ) [SingleTerm]
+                                ) [PositiveExpr]
+                              ) [InitElem]
+                            ) [SingleExprLst]
+                            InitElem(
+                              PositiveExpr(
+                                SingleTerm(
+                                  SingleFactor(
+                                    Const(
+                                      NumConst(
+                                       2
+                                      ) [NumConst]
+                                    ) [Const]
+                                  ) [SingleFactor]
+                                ) [SingleTerm]
+                              ) [PositiveExpr]
+                            ) [InitElem]
+                          ) [ExprLst]
+                        ) [InitLst]
+                      ) [NewFactArray]
+                    ) [SingleFactor]
+                  ) [SingleTerm]
+                ) [PositiveExpr]
+              ) [DesignatorAssign]
+            ) [DesignAssign]
+          ) [DesignatorStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:24:54,805 - ===================================
+INFO  11:24:54,820 - Pretraga na 9(z), nadjeno Var z: int, 0, 1 
+INFO  11:24:54,820 - Pretraga na 9(d), nadjeno Var d: int, 1, 1 
+INFO  11:24:54,820 - Pretraga na 14(niz), nadjeno Var niz: Arr of int, 0, 0 
+INFO  11:24:54,820 - Pretraga na 14(BY_ONE), nadjeno Con BY_ONE: int, 0, 1 
+INFO  11:24:54,820 -  Deklarisanih promenljivih ima = 1
+INFO  11:24:54,820 - ===================================
+INFO  11:24:54,820 - Parsiranje uspesno zavrseno!

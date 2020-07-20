@@ -1,0 +1,19 @@
+program P
+
+	const int dva = 2;
+	const int tri = 3;
+	
+	int a1, a2;
+	char c;
+	{
+		void main() 
+			int res;
+		{
+			a1 = dva;
+			a2 = tri;
+			res = a1 * a2 + tri;
+			c = 'd';
+			print(res);
+			print(c);
+		}
+	}

@@ -1,0 +1,26 @@
+program P
+	const int size = 10;
+	int a, b, c;
+	class Table implements I {
+		int pos[], neg[];
+		{
+			void putp (int a, int idx) { this.pos[idx]=a; }
+			void putn (int a, int idx) { this.neg[idx]=a; }
+			int getp (int idx) { return pos[idx]; }
+			int getn (int idx) { return neg[idx]; }
+		}
+	}
+	Table val;
+	{
+		void main()
+			int i;
+			{
+				val.ident.pos[3].ident.id[5] = 5;
+				objekat.objekat2.funkcijaKojaVracaObjekat();
+				a++;
+				b--;
+				if(i <-- 3) i++;
+				read(i);
+				i = 6;
+			}
+	}

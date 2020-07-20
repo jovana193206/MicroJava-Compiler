@@ -1,0 +1,19 @@
+INFO  15:24:20,942 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  15:24:21,067 - #2 program
+INFO  15:24:21,067 - #44 P
+INFO  15:24:21,067 - #7 const
+INFO  15:24:21,067 - #44 int
+INFO  15:24:21,067 - #44 size
+INFO  15:24:21,067 - #32 =
+INFO  15:24:21,067 - #45 10
+INFO  15:24:21,067 - #35 ;
+INFO  15:24:21,083 - #44 int
+INFO  15:24:21,083 - #44 a
+INFO  15:24:21,083 - #37 .
+ERROR 15:24:21,083 - 
+Sintaksna greska na liniji 3
+INFO  15:24:21,083 - #35 ;
+INFO  15:24:21,083 - #42 {
+INFO  15:24:21,083 - #12 void
+INFO  15:24:21,083 - #44 main
+INFO  15:24:21,083 - #38 (

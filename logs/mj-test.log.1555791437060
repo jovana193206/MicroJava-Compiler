@@ -1,0 +1,260 @@
+INFO  22:17:03,966 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  22:17:04,059 - #2 program
+INFO  22:17:04,059 - #44 P
+INFO  22:17:04,059 - #7 const
+INFO  22:17:04,059 - #44 int
+INFO  22:17:04,059 - #44 size
+INFO  22:17:04,059 - #32 =
+INFO  22:17:04,059 - #45 10
+INFO  22:17:04,059 - #35 ;
+INFO  22:17:04,059 - #42 {
+INFO  22:17:04,075 - #12 void
+INFO  22:17:04,075 - #44 main
+INFO  22:17:04,075 - #38 (
+INFO  22:17:04,075 - #39 )
+INFO  22:17:04,075 - #44 int
+INFO  22:17:04,075 - #44 i
+INFO  22:17:04,075 - #35 ;
+INFO  22:17:04,075 - #42 {
+INFO  22:17:04,075 - #44 i
+INFO  22:17:04,075 - #33 ++
+INFO  22:17:04,075 - #35 ;
+INFO  22:17:04,075 - #44 i
+INFO  22:17:04,106 - #34 --
+INFO  22:17:04,106 - #35 ;
+INFO  22:17:04,106 - #44 i
+INFO  22:17:04,106 - #32 =
+INFO  22:17:04,106 - #44 i
+INFO  22:17:04,106 - #19 +
+INFO  22:17:04,106 - #45 2
+INFO  22:17:04,106 - #35 ;
+INFO  22:17:04,106 - #44 i
+INFO  22:17:04,106 - #32 =
+INFO  22:17:04,106 - #45 5
+INFO  22:17:04,106 - #21 *
+INFO  22:17:04,106 - #45 3
+INFO  22:17:04,106 - #21 *
+INFO  22:17:04,106 - #35 ;
+ERROR 22:17:04,106 - 
+Sintaksna greska na liniji 10
+INFO  22:17:04,106 - #16 if
+INFO  22:17:04,106 - #38 (
+INFO  22:17:04,106 - #44 i
+DEBUG 22:17:04,106 - Uspesan oporavak od greske pri dodeli vrednosti.
+INFO  22:17:04,106 - #28 <
+INFO  22:17:04,122 - #45 3
+INFO  22:17:04,122 - #39 )
+INFO  22:17:04,122 - #44 i
+INFO  22:17:04,122 - #33 ++
+INFO  22:17:04,122 - #35 ;
+INFO  22:17:04,122 - #10 read
+INFO  22:17:04,122 - #38 (
+INFO  22:17:04,122 - #44 i
+INFO  22:17:04,122 - #39 )
+INFO  22:17:04,122 - #35 ;
+INFO  22:17:04,122 - #43 }
+INFO  22:17:04,122 - #43 }
+INFO  22:17:04,122 - Program(
+ P
+  Declarations(
+    NoVarDecl(
+    ) [NoVarDecl]
+    ConstDeclaration(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        SingleConstInit(
+          ConstInit(
+           size
+            Assignop(
+            ) [Assignop]
+            NumConst(
+             10
+            ) [NumConst]
+          ) [ConstInit]
+        ) [SingleConstInit]
+      ) [ConstDecl]
+    ) [ConstDeclaration]
+  ) [Declarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDecl(
+      MethodReturnVoid(
+      ) [MethodReturnVoid]
+     main
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDeclList(
+        ) [NoVarDeclList]
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          SingleVarIdent(
+            NonArrayVarIdent(
+             i
+            ) [NonArrayVarIdent]
+          ) [SingleVarIdent]
+        ) [VarDecl]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  MatchedStmt(
+                    DesignatorStmt(
+                      DesignatorStatement(
+                        Designator(
+                         i
+                          NoDesignatorParts(
+                          ) [NoDesignatorParts]
+                        ) [Designator]
+                        DesignInc(
+                        ) [DesignInc]
+                      ) [DesignatorStatement]
+                    ) [DesignatorStmt]
+                  ) [MatchedStmt]
+                ) [Statements]
+                MatchedStmt(
+                  DesignatorStmt(
+                    DesignatorStatement(
+                      Designator(
+                       i
+                        NoDesignatorParts(
+                        ) [NoDesignatorParts]
+                      ) [Designator]
+                      DesignDec(
+                      ) [DesignDec]
+                    ) [DesignatorStatement]
+                  ) [DesignatorStmt]
+                ) [MatchedStmt]
+              ) [Statements]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignatorStatement(
+                    Designator(
+                     i
+                      NoDesignatorParts(
+                      ) [NoDesignatorParts]
+                    ) [Designator]
+                    DesignAssign(
+                      Assignop(
+                      ) [Assignop]
+                      PositiveExpr(
+                        Terms(
+                          SingleTerm(
+                            SingleFactor(
+                              DesignFact(
+                                Designator(
+                                 i
+                                  NoDesignatorParts(
+                                  ) [NoDesignatorParts]
+                                ) [Designator]
+                              ) [DesignFact]
+                            ) [SingleFactor]
+                          ) [SingleTerm]
+                          AddopPlus(
+                          ) [AddopPlus]
+                          SingleFactor(
+                            Const(
+                              NumConst(
+                               2
+                              ) [NumConst]
+                            ) [Const]
+                          ) [SingleFactor]
+                        ) [Terms]
+                      ) [PositiveExpr]
+                    ) [DesignAssign]
+                  ) [DesignatorStatement]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [Statements]
+            MatchedStmt(
+              DesignatorStmt(
+                DesignatorStatement(
+                  Designator(
+                   i
+                    NoDesignatorParts(
+                    ) [NoDesignatorParts]
+                  ) [Designator]
+                  ErrAssignop(
+                    Assignop(
+                    ) [Assignop]
+                  ) [ErrAssignop]
+                ) [DesignatorStatement]
+              ) [DesignatorStmt]
+            ) [MatchedStmt]
+          ) [Statements]
+          UnmatchedStmt(
+            UnmatchedIf(
+              SingleCondition(
+                SingleCondTerm(
+                  BinaryCondFact(
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          DesignFact(
+                            Designator(
+                             i
+                              NoDesignatorParts(
+                              ) [NoDesignatorParts]
+                            ) [Designator]
+                          ) [DesignFact]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                    RelopLess(
+                    ) [RelopLess]
+                    PositiveExpr(
+                      SingleTerm(
+                        SingleFactor(
+                          Const(
+                            NumConst(
+                             3
+                            ) [NumConst]
+                          ) [Const]
+                        ) [SingleFactor]
+                      ) [SingleTerm]
+                    ) [PositiveExpr]
+                  ) [BinaryCondFact]
+                ) [SingleCondTerm]
+              ) [SingleCondition]
+              MatchedStmt(
+                DesignatorStmt(
+                  DesignatorStatement(
+                    Designator(
+                     i
+                      NoDesignatorParts(
+                      ) [NoDesignatorParts]
+                    ) [Designator]
+                    DesignInc(
+                    ) [DesignInc]
+                  ) [DesignatorStatement]
+                ) [DesignatorStmt]
+              ) [MatchedStmt]
+            ) [UnmatchedIf]
+          ) [UnmatchedStmt]
+        ) [Statements]
+        MatchedStmt(
+          ReadStmt(
+            Designator(
+             i
+              NoDesignatorParts(
+              ) [NoDesignatorParts]
+            ) [Designator]
+          ) [ReadStmt]
+        ) [MatchedStmt]
+      ) [Statements]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:17:04,122 - ===================================
+INFO  22:17:04,138 -  Print count calls = 0
+INFO  22:17:04,138 -  Deklarisanih promenljivih ima = 1

@@ -1,0 +1,13 @@
+program P
+	const int size = 10;
+	{
+		void main()
+			int i;
+			{
+				for(i = 0; i < size; i++)
+				{
+					if(i == 3) i++;
+				}
+				else i = 0;
+			}
+	}

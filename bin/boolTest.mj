@@ -1,0 +1,14 @@
+program P
+	bool a1, a2;
+	char c, d;
+	{
+		void main() 
+			bool res;
+		{
+			a1 = true;
+			a2 = false;
+			res = a1;
+			c = d;
+			print(res);
+		}
+	}

@@ -1,0 +1,41 @@
+INFO  22:43:50,560 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  22:43:50,731 - #2 program
+INFO  22:43:50,731 - #44 P
+INFO  22:43:50,731 - #7 const
+INFO  22:43:50,747 - #44 int
+INFO  22:43:50,747 - #44 size
+INFO  22:43:50,747 - #32 =
+INFO  22:43:50,747 - #45 10
+INFO  22:43:50,747 - #35 ;
+INFO  22:43:50,747 - #44 int
+INFO  22:43:50,747 - #44 a
+INFO  22:43:50,747 - #36 ,
+INFO  22:43:50,747 - #44 b
+INFO  22:43:50,747 - #35 ;
+INFO  22:43:50,747 - #42 {
+INFO  22:43:50,747 - #12 void
+INFO  22:43:50,747 - #44 main
+INFO  22:43:50,747 - #38 (
+INFO  22:43:50,747 - #39 )
+INFO  22:43:50,747 - #44 int
+INFO  22:43:50,747 - #44 i
+INFO  22:43:50,763 - #35 ;
+INFO  22:43:50,763 - #42 {
+INFO  22:43:50,763 - #44 i
+INFO  22:43:50,763 - #33 ++
+INFO  22:43:50,763 - #35 ;
+INFO  22:43:50,763 - #44 i
+INFO  22:43:50,763 - #34 --
+INFO  22:43:50,763 - #35 ;
+INFO  22:43:50,763 - #44 i
+INFO  22:43:50,778 - #32 =
+INFO  22:43:50,778 - #44 i
+INFO  22:43:50,778 - #19 +
+INFO  22:43:50,778 - #45 2
+INFO  22:43:50,778 - #35 ;
+INFO  22:43:50,778 - #44 i
+INFO  22:43:50,778 - #32 =
+INFO  22:43:50,778 - #21 *
+ERROR 22:43:50,778 - 
+Sintaksna greska na liniji 11
+ERROR 22:43:50,778 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 11

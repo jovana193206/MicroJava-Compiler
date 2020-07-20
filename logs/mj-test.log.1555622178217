@@ -1,0 +1,49 @@
+INFO  22:14:26,427 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\syntaxErrorTest.mj
+INFO  22:14:26,521 - #2 program
+INFO  22:14:26,521 - #44 P
+INFO  22:14:26,521 - #7 const
+INFO  22:14:26,521 - #44 int
+INFO  22:14:26,521 - #44 k
+INFO  22:14:26,521 - #35 ;
+ERROR 22:14:26,521 - 
+Sintaksna greska na liniji 2
+INFO  22:14:26,521 - #7 const
+INFO  22:14:26,521 - #44 int
+INFO  22:14:26,521 - #44 size
+DEBUG 22:14:26,537 - Uspesan oporavak od pogresne deklaracije konstante.
+INFO  22:14:26,537 - #32 =
+INFO  22:14:26,537 - #45 10
+INFO  22:14:26,537 - #35 ;
+INFO  22:14:26,537 - #42 {
+INFO  22:14:26,537 - #12 void
+INFO  22:14:26,537 - #44 main
+INFO  22:14:26,537 - #38 (
+INFO  22:14:26,537 - #39 )
+INFO  22:14:26,537 - #44 int
+INFO  22:14:26,537 - #44 i
+INFO  22:14:26,537 - #35 ;
+INFO  22:14:26,537 - #42 {
+INFO  22:14:26,537 - #44 i
+INFO  22:14:26,552 - #32 =
+INFO  22:14:26,552 - #44 size
+INFO  22:14:26,552 - #19 +
+INFO  22:14:26,552 - #35 ;
+ERROR 22:14:26,552 - 
+Sintaksna greska na liniji 8
+INFO  22:14:26,552 - #16 if
+INFO  22:14:26,552 - #38 (
+INFO  22:14:26,552 - #44 i
+INFO  22:14:26,552 - #28 <
+INFO  22:14:26,552 - #45 3
+INFO  22:14:26,552 - #39 )
+INFO  22:14:26,552 - #44 i
+INFO  22:14:26,552 - #33 ++
+INFO  22:14:26,552 - #35 ;
+INFO  22:14:26,552 - #10 read
+INFO  22:14:26,552 - #38 (
+INFO  22:14:26,552 - #44 i
+INFO  22:14:26,552 - #39 )
+INFO  22:14:26,552 - #35 ;
+INFO  22:14:26,552 - #43 }
+INFO  22:14:26,552 - #43 }
+ERROR 22:14:26,552 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 12

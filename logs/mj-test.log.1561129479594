@@ -1,0 +1,35 @@
+INFO  17:02:57,644 - Compiling source file: C:\Users\Jovana\Documents\FAKS\7. semestar\PP1\Eclipse-workspace\MJCompiler\test\funcTest.mj
+INFO  17:02:58,374 - #2 program
+INFO  17:02:58,374 - #44 P
+INFO  17:02:58,374 - #44 int
+INFO  17:02:58,374 - #44 f
+INFO  17:02:58,374 - #33 (
+ERROR 17:02:58,374 - 
+Sintaksna greska na liniji 3
+INFO  17:02:58,382 - #44 int
+INFO  17:02:58,382 - #44 broj
+INFO  17:02:58,384 - #34 )
+INFO  17:02:58,434 - #37 {
+INFO  17:02:58,434 - #11 return
+INFO  17:02:58,436 - #33 (
+INFO  17:02:58,436 - #44 broj
+INFO  17:02:58,436 - #39 +
+INFO  17:02:58,436 - #45 5
+INFO  17:02:58,436 - #34 )
+INFO  17:02:58,436 - #42 /
+INFO  17:02:58,436 - #45 2
+INFO  17:02:58,436 - #30 ;
+INFO  17:02:58,436 - #38 }
+INFO  17:02:58,507 - #37 {
+INFO  17:02:58,507 - #12 void
+INFO  17:02:58,507 - #44 main
+INFO  17:02:58,507 - #33 (
+INFO  17:02:58,507 - #34 )
+INFO  17:02:58,507 - #44 int
+INFO  17:02:58,507 - #44 x
+INFO  17:02:58,515 - #31 ,
+INFO  17:02:58,515 - #44 res
+INFO  17:02:58,515 - #30 ;
+INFO  17:02:58,515 - #37 {
+INFO  17:02:58,515 - #44 res
+INFO  17:02:58,517 - #27 =
